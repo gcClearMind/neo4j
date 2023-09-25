@@ -1,0 +1,1506 @@
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-03][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+[DEBUG][23-09-03][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.dboe.System]System architecture: 64 bit
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\data.rdf)
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\data.rdf
+[DEBUG][23-09-03][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\data.rdf (LocatorFile)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-06][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-06][Jena]Jena initialization
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-06][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-06][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-07][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7d0587f1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7d0587f1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7d0587f1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7d0587f1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7d0587f1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-19][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-19][Jena]Jena initialization
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\output.rdf)
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\output.rdf
+[DEBUG][23-09-19][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\output.rdf (LocatorFile)
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-19][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-20][Jena]Jena initialization
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-20][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-20][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.logging.InternalLoggerFactory]Using SLF4J as the default logging framework
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.MultithreadEventLoopGroup]-Dio.netty.eventLoopThreads: 48
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.InternalThreadLocalMap]-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.noKeySetOptimization: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.channel.nio.NioEventLoop]-Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]-Dio.netty.noUnsafe: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]Java version: 17
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.theUnsafe: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]sun.misc.Unsafe.copyMemory: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Buffer.address: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.Bits.unaligned: available, true
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cef309d
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent0]java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]sun.misc.Unsafe: available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]maxDirectMemory: 8506048512 bytes (maybe)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.tmpdir: C:\Users\29615\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]Platform: Windows
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.CleanerJava9]java.nio.ByteBuffer.cleaner(): available
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]-Dio.netty.noPreferDirect: false
+[DEBUG][23-09-20][org.neo4j.driver.internal.shaded.io.netty.util.internal.PlatformDependent]org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG][23-09-20][Jena]Jena initialization
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-09-20][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-20][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]open(D:\IDEA_Projects\neo4j\1.rdf)
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]Not mapped: D:\IDEA_Projects\neo4j\1.rdf
+[DEBUG][23-09-20][org.apache.jena.riot.system.stream.StreamManager]Found: D:\IDEA_Projects\neo4j\1.rdf (LocatorFile)
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-09-20][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
