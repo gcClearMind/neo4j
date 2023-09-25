@@ -91,16 +91,10 @@ public class test {
         driver.close();
 
         Model model = ModelFactory.createDefaultModel();
+        SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = "D:\\IDEA_Projects\\neo4j\\1.rdf";
-        InputStream in = FileManager.get().open(inputFileName);
-        if(in == null){
-            throw new IllegalArgumentException(
-                    "File: " + inputFileName + " not found.");
-        }
-
-        model.read(in, null);
-        OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM, model);
+        String inputFileName = Paths.get("1.rdf").toString();
+        OntModel ontModel = getOntModel(model, inputFileName);
 
 
 
@@ -111,12 +105,9 @@ public class test {
             OntClass second = CoreOWLUtil.getClass(ontModel, o.get(2));
             addRelation(ontModel, first, second, relationName);
         }
-
-
         printClasses(ontModel);
 
         model.write(System.out, "N-TRIPLES");
-
         OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }

@@ -1,33 +1,35 @@
 package tool;
 
 import org.apache.jena.ontology.*;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.RDFWriter;
+import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
-/**
- * @BelongsProject: createowl
- * @BelongsPackage: com.zt.createowl.util
- * @Author: zt
- * @CreateTime: 2023-02-28  15:59
- * @Description:
- */
 
 public class CoreOWLUtil {
 
     /*
      * @Description: 将OntModel类的对象写成一个OWL文件
-     * @Author: zt
-     * @Date: 2023/2/28 16:37
      * @param: [ontModel]
      * @return: void
      **/
 
+    public static String SourceName;
+
+
+    public static void SetSourceName(String name){
+        SourceName = name;
+    }
+
+
     public static String getSourceName(){
-        return "http://www.neo4j.com/ontologies/data.owl";
+        return SourceName;
     }
 
     /*
@@ -52,6 +54,19 @@ public class CoreOWLUtil {
     }
 
 
+    public static OntModel getOntModel(Model model, String inputFileName) throws IllegalArgumentException {
+        InputStream in = FileManager.get().open(inputFileName);
+        if(in == null){
+            throw new IllegalArgumentException(
+                    "File: " + inputFileName + " not found.");
+        }
+
+        model.read(in, null);
+        OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM, model);
+        return ontModel;
+    }
+
+
     public static void ontModel2Owl(OntModel ontModel) throws IOException {
         //输出owl文件到文件系统
         String filepath = "src/main/resources/owl/core/CoreOntology.owl";
@@ -68,8 +83,6 @@ public class CoreOWLUtil {
 
     /*
      * @Description: 将指定位置的OWL文件读取为OntModel类的一个对象
-     * @Author: zt
-     * @Date: 2023/2/28 16:05
      * @param: []
      * @return: org.apache.jena.ontology.OntModel
      **/
@@ -89,8 +102,6 @@ public class CoreOWLUtil {
 
     /*
      * @Description: 新增加一个类
-     * @Author: zt
-     * @Date: 2023/2/28 16:38
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 新增加类的名称]
      * @return: org.apache.jena.ontology.OntClass
      **/
@@ -101,7 +112,11 @@ public class CoreOWLUtil {
         return newClass;
     }
 
-
+    /*
+     * @Description: 得到原模型中的类，没有则创建
+     * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 类的名称]
+     * @return: org.apache.jena.ontology.OntClass
+     **/
     public static OntClass getClass(OntModel ontModel, String className) throws IOException {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntClass newClass = ontModel.getOntClass(nameSpace + className);

@@ -1,0 +1,30 @@
+# Ignore object files and executables
+*.o
+*.out
+
+# Ignore compiled binaries
+*.class
+*.jar
+
+# Ignore generated files
+gen/
+build/
+dist/
+
+# Ignore logs and temporary files
+*.log
+tmp/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+.project
+
+# Ignore dependencies installed by package managers
+node_modules/
+vendor/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
