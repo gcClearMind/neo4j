@@ -26,10 +26,15 @@ import static tool.CoreOWLUtil.*;
 public class test {
 
     public static void main(String[] args) throws IOException {
+
+
+        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
+        Properties properties=new Properties();
+        properties.load(inputStream);
         // 连接数据库
-        String uri = "bolt://localhost:7687";
-        String user = "neo4j";
-        String password = "12345678";
+        String uri = properties.getProperty("neo4j.uri");
+        String user = properties.getProperty("neo4j.user");
+        String password = properties.getProperty("neo4j.password");
         Driver driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
 
         // 执行一些数据库操作
