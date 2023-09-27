@@ -26,5 +26,6 @@ public class Initialization {
 //        OntModel ontModel = getOntModel(model,inputFileName);
 //        printClasses(ontModel);
 //        model.write(System.out, "N-TRIPLES");
+        // 先写入一些粗略的 uml 与sysml的对应， 在每次录入过程中， 通过同类项的推理， 将标签归类到相应的class子类下
     }
 }
