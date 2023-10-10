@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.semanticweb.org/29615/ontologies/2023/8/untitled-ontology-7/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.neo4j.com/ontologies/data.owl"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Property">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#additional_stereotypes:PartProperty"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Class">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:Block"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+</rdf:RDF>

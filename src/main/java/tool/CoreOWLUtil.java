@@ -7,6 +7,7 @@ import org.apache.jena.rdf.model.RDFWriter;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
+import javax.swing.*;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -136,6 +137,19 @@ public class CoreOWLUtil {
      * @return: void
      **/
     public static void addSubClass(OntModel ontModel, OntClass fatherClass, OntClass sonClass) throws IOException {
+        fatherClass.addSubClass(sonClass);
+//        CoreOWLUtil.ontModel2Owl(ontModel);
+    }
+
+
+    /*
+     * @Description: 向传入的兄弟类和子类添加父子关系
+     * @Author: shk001
+     * @param: [ontModel 读取OWL文件生成的OntModel类对象, BroClass 兄弟类, sonClass 子类]
+     * @return: void
+     **/
+    public static void addSiblingClass(OntModel ontModel, OntClass BroClass, OntClass sonClass) throws IOException {
+        OntClass fatherClass = BroClass.getSuperClass();
         fatherClass.addSubClass(sonClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
     }
