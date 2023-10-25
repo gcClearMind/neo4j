@@ -170,6 +170,16 @@ public class CoreOWLUtil {
         return newRelation;
     }
 
+    public static ObjectProperty getRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
+        String nameSpace = CoreOWLUtil.getNameSpace();
+        ObjectProperty newRelation = ontModel.createObjectProperty(nameSpace + relationName);
+        ObjectProperty n2 = ontModel.getObjectProperty(relationName);
+        newRelation.addDomain(sourceClass);
+        newRelation.addRange(targetClass);
+//        CoreOWLUtil.ontModel2Owl(ontModel);
+        return newRelation;
+    }
+
     /*
      * @Description: 向传入的类添加属性信息，属性名称由参数传递
      * @Author: zt

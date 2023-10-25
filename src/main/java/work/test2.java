@@ -41,19 +41,16 @@ public class test2 {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("1.rdf").toString();
+        String inputFileName = Paths.get("Initialization.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
         // 执行一些数据库操作
-        Map<List<String>, Integer> relation = new TreeMap<>(new Comparator<List<String>>() {
-            @Override
-            public int compare(List<String> o1, List<String> o2) {
-                //比较顺序
-                return o1.get(0).compareTo(o2.get(0)) == 0 ?
-                        (o1.get(2).compareTo(o2.get(2)) == 0 ?
-                                o1.get(1).compareTo(o2.get(1)) : o1.get(2).compareTo(o2.get(2)))
-                        : o1.get(0).compareTo(o2.get(0));
-            }
+        Map<List<String>, Integer> relation = new TreeMap<>((o1, o2) -> {
+            //比较顺序
+            return o1.get(0).compareTo(o2.get(0)) == 0 ?
+                    (o1.get(2).compareTo(o2.get(2)) == 0 ?
+                            o1.get(1).compareTo(o2.get(1)) : o1.get(2).compareTo(o2.get(2)))
+                    : o1.get(0).compareTo(o2.get(0));
         });
         try (Session session = driver.session()) {
             Result result = session.run("MATCH (n)-[r]-(m) RETURN labels(n) as first , labels(m) as second ,type(r) as relation");
@@ -62,11 +59,14 @@ public class test2 {
                 List<Object> first = record.get("first").asList();
                 List<Object> second = record.get("second").asList();
                 String rel = record.get("relation").asString();
-                String fs = null, se = null;
                 List<String> ad = new ArrayList<>();
-
                 // todo sysml
+                // 处理子类关系
+                for(Object o: first) {
+                    if(o.toString().contains("uml")){
 
+                    }
+                }
 
                 relation.put(ad, 1);
             }

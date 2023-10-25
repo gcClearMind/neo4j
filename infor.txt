@@ -1,13 +1,7 @@
 uml:Class Blocks:Block
-
-uml:Generalization Conform
-
 uml:ConnectorEnd Blocks:NestedConnectorEnd
 Blocks:Block ConstraintBlocks:ConstraintBlock
-uml:Parameter
-uml:Port
 uml:ConnectorEnd Blocks:NestedConnectorEnd
 uml:Connector Blocks:BindingConnector
 uml:DataType Blocks:ValueType
-
 uml:Property Ports_Flows:FlowProperty
