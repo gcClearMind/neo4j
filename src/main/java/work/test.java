@@ -105,9 +105,9 @@ public class test {
 
 
         for(List<String> o : relation.keySet()){
-            OntClass first = CoreOWLUtil.getClass(ontModel, o.get(0));
+            OntClass first = CoreOWLUtil.createClass(ontModel, o.get(0));
             String relationName = o.get(1);
-            OntClass second = CoreOWLUtil.getClass(ontModel, o.get(2));
+            OntClass second = CoreOWLUtil.createClass(ontModel, o.get(2));
             addRelation(ontModel, first, second, relationName);
         }
         printClasses(ontModel);

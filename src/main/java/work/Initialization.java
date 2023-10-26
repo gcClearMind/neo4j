@@ -39,8 +39,8 @@ public class Initialization {
         OntModel ontModel = getOntModel(model,inputFileName);
         for(String rel : subClasses) {
             List<String> o = Arrays.asList(rel.split(" "));
-            OntClass father = CoreOWLUtil.getClass(ontModel, o.get(0));
-            OntClass son = CoreOWLUtil.getClass(ontModel, o.get(1));
+            OntClass father = CoreOWLUtil.createClass(ontModel, o.get(0));
+            OntClass son = CoreOWLUtil.createClass(ontModel, o.get(1));
             addSubClass(ontModel, father, son);
         }
         model.write(System.out, "N-TRIPLES");

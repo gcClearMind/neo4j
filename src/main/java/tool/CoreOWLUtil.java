@@ -7,10 +7,12 @@ import org.apache.jena.rdf.model.RDFWriter;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
-import javax.swing.*;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public class CoreOWLUtil {
@@ -107,14 +109,16 @@ public class CoreOWLUtil {
      * @return: org.apache.jena.ontology.OntClass
      **/
     public static OntClass createClass(OntModel ontModel, String className) throws IOException {
+        OntClass newClass = getClass(ontModel, className);
+        if(newClass != null) return newClass;
         String nameSpace = CoreOWLUtil.getNameSpace();
-        OntClass newClass = ontModel.createClass(nameSpace + className);
+        newClass = ontModel.createClass(nameSpace + className);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
         return newClass;
     }
 
     /*
-     * @Description: 得到原模型中的类，没有则创建
+     * @Description: 得到原模型中的类，没有则返回null
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 类的名称]
      * @return: org.apache.jena.ontology.OntClass
      **/
@@ -122,9 +126,7 @@ public class CoreOWLUtil {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntClass newClass = ontModel.getOntClass(nameSpace + className);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
-        if(newClass == null) {
-            return createClass(ontModel, className);
-        }
+
         return newClass;
     }
 
@@ -141,6 +143,67 @@ public class CoreOWLUtil {
 //        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
+    /*
+     * @Description: 获取该节点深度
+     * @Author: shk001
+     * @Date: 2023/10/26
+     * @param: [ontModel 读取OWL文件生成的OntModel类对象, ontClass 类]
+     * @return: Integer
+     **/
+    public static Integer getDeep(OntModel ontModel, OntClass ontClass) throws IOException {
+        int deep = 0;
+        while(ontClass.hasSuperClass()) {
+            deep++;
+            ontClass = ontClass.getSuperClass();
+        }
+        return deep;
+    }
+
+        /*
+     * @Description: 将同一节点下的标签集导入本体
+     * @Author: shk001
+     * @Date: 2023/10/26
+     * @param: [ontModel 读取OWL文件生成的OntModel类对象, list 同一个节点下的标签]
+     * @return: void
+     **/
+    public static void addList(OntModel ontModel, List<Object> list) throws IOException {
+        int deep = -1;
+        String deepClassName = null;
+        //创建所有节点，存在则获取,并找到最深的节点
+        for(Object o: list) {
+            OntClass newClass = createClass(ontModel, o.toString());
+            int tmpDeep = getDeep(ontModel, newClass);
+            if(tmpDeep > deep || (deep == tmpDeep && o.toString().contains("uml"))) { // 找到最深的本体
+                deepClassName = o.toString();
+                deep = tmpDeep;
+            }
+        }
+        if(deepClassName.contains("uml")) { // 只有一层
+            OntClass fatherClass = getClass(ontModel, deepClassName);
+            for(Object o: list) {
+                if(o.toString().contains("uml")) continue;
+                OntClass sonClass = getClass(ontModel, o.toString());
+                addSubClass(ontModel, fatherClass, sonClass);
+            }
+        }
+        else {
+            Map<OntClass, Integer> dirt = new HashMap<>();
+            OntClass BroClass = getClass(ontModel, deepClassName);
+            OntClass tmpClass = getClass(ontModel, deepClassName);
+            dirt.put(tmpClass, 1);
+            while(tmpClass.hasSuperClass()) {
+                tmpClass = tmpClass.getSuperClass();
+                dirt.put(tmpClass, 1);
+            }
+            for(Object o: list) {
+                OntClass sonClass = getClass(ontModel, o.toString());
+                if(dirt.containsKey(sonClass)) continue;
+                addSiblingClass(ontModel, BroClass, sonClass);
+            }
+        }
+    }
+
+
 
     /*
      * @Description: 向传入的兄弟类和子类添加父子关系
@@ -149,6 +212,7 @@ public class CoreOWLUtil {
      * @return: void
      **/
     public static void addSiblingClass(OntModel ontModel, OntClass BroClass, OntClass sonClass) throws IOException {
+        if(BroClass.equals(sonClass)) return;
         OntClass fatherClass = BroClass.getSuperClass();
         fatherClass.addSubClass(sonClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);

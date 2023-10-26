@@ -24,7 +24,6 @@ import static tool.CoreOWLUtil.*;
 
 
 public class test2 {
-
     public static void main(String[] args) throws IOException {
 
 
@@ -62,12 +61,11 @@ public class test2 {
                 List<String> ad = new ArrayList<>();
                 // todo sysml
                 // 处理子类关系
-                for(Object o: first) {
-                    if(o.toString().contains("uml")){
+                addList(ontModel, first);
+                addList(ontModel, second);
+                for(Object o1: first) {
 
-                    }
                 }
-
                 relation.put(ad, 1);
             }
         }
@@ -78,12 +76,6 @@ public class test2 {
         // 关闭连接
         driver.close();
 
-        for(List<String> o : relation.keySet()){
-            OntClass first = CoreOWLUtil.getClass(ontModel, o.get(0));
-            String relationName = o.get(1);
-            OntClass second = CoreOWLUtil.getClass(ontModel, o.get(2));
-            addRelation(ontModel, first, second, relationName);
-        }
         printClasses(ontModel);
 
         model.write(System.out, "N-TRIPLES");
