@@ -10,6 +10,7 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -143,6 +144,28 @@ public class CoreOWLUtil {
 //        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
+
+    public static List<List<String>> getPath(OntModel ontModel, List<String> road, String refine) throws IOException {
+        int size = road.size();
+        int cnt = 0;
+        OntClass start = getClass(ontModel, road.get(cnt));
+        cnt++;
+        OntClass father = getClass(ontModel, road.get(cnt));
+        OntClass now = null;
+        List<List<String>> res = new ArrayList<List<String>>();
+        while(cnt < size) {
+            if((cnt & 1) == 0) { // 此时为 class
+                father = now;
+                now = getClass(ontModel, road.get(cnt));
+            }
+            else { //此时为Relation
+
+            }
+        }
+        return null;
+    }
+
+
     /*
      * @Description: 获取该节点深度
      * @Author: shk001
@@ -198,7 +221,16 @@ public class CoreOWLUtil {
             for(Object o: list) {
                 OntClass sonClass = getClass(ontModel, o.toString());
                 if(dirt.containsKey(sonClass)) continue;
+
                 addSiblingClass(ontModel, BroClass, sonClass);
+                /*
+                debug
+                 */
+                if(getClass(ontModel, "uml:DataType")!=null && getClass(ontModel, "uml:DataType").hasSuperClass()) {
+                    System.out.println("--------------");
+                    System.out.println(list);
+                    System.out.println("--------------");
+                }
             }
         }
     }

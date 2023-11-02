@@ -59,14 +59,29 @@ public class test2 {
                 List<Object> second = record.get("second").asList();
                 String rel = record.get("relation").asString();
                 List<String> ad = new ArrayList<>();
-                // todo sysml
+                ad.add("0");
+                ad.add("0");
+                ad.add("0");
                 // 处理子类关系
                 addList(ontModel, first);
                 addList(ontModel, second);
+                // 处理直接关系
                 for(Object o1: first) {
-
+                    String first_label = o1.toString();
+                    if(first_label.contains("uml") && first.size() != 1) { // 判断为不为uml类的label
+                        continue;
+                     }
+                    for(Object o2: second) {
+                        String second_label = o2.toString();
+                        if(second_label.contains("uml") && second.size() != 1) {
+                            continue;
+                        }
+                        ad.set(0,first_label);
+                        ad.set(1,rel);
+                        ad.set(2,second_label);
+                        relation.put(ad, 1);
+                    }
                 }
-                relation.put(ad, 1);
             }
         }
         catch (Exception e) {
@@ -75,10 +90,15 @@ public class test2 {
         }
         // 关闭连接
         driver.close();
+        for(List<String> o : relation.keySet()){
+            OntClass first = CoreOWLUtil.createClass(ontModel, o.get(0));
+            String relationName = o.get(1);
+            OntClass second = CoreOWLUtil.createClass(ontModel, o.get(2));
+            addRelation(ontModel, first, second, relationName);
+        }
+//        printClasses(ontModel);
 
-        printClasses(ontModel);
-
-        model.write(System.out, "N-TRIPLES");
+//        model.write(System.out, "N-TRIPLES");
         OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
