@@ -1,19 +1,17 @@
 package tool;
 
 import org.apache.jena.ontology.*;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFWriter;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.reasoner.Reasoner;
+import org.apache.jena.reasoner.ReasonerRegistry;
+import org.apache.jena.sparql.path.Path;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class CoreOWLUtil {
@@ -145,24 +143,35 @@ public class CoreOWLUtil {
     }
 
 
-    public static List<List<String>> getPath(OntModel ontModel, List<String> road, String refine) throws IOException {
-        int size = road.size();
-        int cnt = 0;
-        OntClass start = getClass(ontModel, road.get(cnt));
-        cnt++;
-        OntClass father = getClass(ontModel, road.get(cnt));
-        OntClass now = null;
-        List<List<String>> res = new ArrayList<List<String>>();
-        while(cnt < size) {
-            if((cnt & 1) == 0) { // 此时为 class
-                father = now;
-                now = getClass(ontModel, road.get(cnt));
-            }
-            else { //此时为Relation
+    public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end) throws IOException {
+        LinkedList<Path> paths = new LinkedList<Path>();
+        OntClass top_node; //即栈顶节点
+        OntClass cur_node;//当前的临接节点
+        OntClass next_node;//下一个入栈节点
+        //遍历过程中使用的栈
+        LinkedList<Integer> stack = new LinkedList<Integer>();
+        //标记节点是否在栈内，避免回路
+        Map<OntClass, Integer> states = new HashMap<OntClass, Integer>();
+        Queue<OntClass> queue = new LinkedList<>();
+        List<OntClass> add = new ArrayList<>();
+        add.add(start);
+        int num = 0;
 
-            }
-        }
-        return null;
+        queue.add(start);
+
+
+        return paths;
+//        Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
+//
+//        // Find the paths between the two classes
+//        ExtendedIterator<org.apache.jena.graph.Triple> paths = ontModel.getGraph().find(start.asNode(),null,end.asNode());
+//        while (paths.hasNext()) {
+//            org.apache.jena.graph.Triple path = paths.next();
+//            System.out.println("-------");
+//            System.out.println(path);
+//            System.out.println("-------");
+//        }
+//        return null;
     }
 
 
@@ -257,23 +266,55 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类, targetClass 尾类, relationName 关系名称]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
-    public static ObjectProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
+    public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        ObjectProperty newRelation = ontModel.createObjectProperty(nameSpace + relationName);
+        OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
         return newRelation;
     }
 
-    public static ObjectProperty getRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
+    /*
+     * @Description: 获得与sourceClass相连的所有Property
+     * @Author: shk001
+     * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类]
+     * @return: org.apache.jena.ontology.ObjectProperty
+     **/
+    public static List<HashMap<OntProperty, OntClass>> getRelations(OntModel ontModel, OntClass sourceClass) throws IOException {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        ObjectProperty newRelation = ontModel.createObjectProperty(nameSpace + relationName);
-        ObjectProperty n2 = ontModel.getObjectProperty(relationName);
-        newRelation.addDomain(sourceClass);
-        newRelation.addRange(targetClass);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
-        return newRelation;
+        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties();
+        System.out.println(prop.toString());
+        List<HashMap<OntProperty, OntClass>> result = new ArrayList<HashMap<OntProperty, OntClass>>();
+        System.out.println("-----------------");
+        while (prop.hasNext()) {
+            OntProperty ppp = prop.next();
+            System.out.println(ppp.getURI());
+            OntClass next = ppp.getRange().asClass();
+            HashMap<OntProperty, OntClass> ad = new HashMap<OntProperty, OntClass>();
+            ad.put(ppp, next);
+            result.add(ad);
+        }
+
+        ExtendedIterator<OntProperty> properties = ontModel.listAllOntProperties()
+                .filterKeep(p -> p.getDomain().equals(sourceClass));
+        while (properties.hasNext()) {
+            OntProperty property = properties.next();
+            HashMap<OntProperty, OntClass> ad = new HashMap<OntProperty, OntClass>();
+            ExtendedIterator<? extends OntResource> rangeIter = property.listRange()
+                    .filterKeep(r -> r.asClass().hasSuperClass(sourceClass));
+            while (rangeIter.hasNext()) {
+                OntResource range = rangeIter.next();
+                OntClass next = range.asClass();
+                ad.put(property, next);
+            }
+            result.add(ad);
+        }
+        System.out.println(result.size());
+        System.out.println("-----------------");
+        return  result;
+ //        CoreOWLUtil.ontModel2Owl(ontModel);
+
     }
 
     /*
