@@ -9,6 +9,7 @@ import org.neo4j.driver.AuthTokens;
 import org.neo4j.driver.Driver;
 import org.neo4j.driver.GraphDatabase;
 import tool.CoreOWLUtil;
+import tool.Pair;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,14 +35,13 @@ public class test3 {
         System.out.println(start.getURI());
         OntClass end = CoreOWLUtil.getClass(ontModel,"Blocks:Block");
 
-        List<HashMap<OntProperty, OntClass>> res = getRelations(ontModel, start);
+        List<Pair<OntProperty, OntClass>> res = getRelations(ontModel, start);
 
-        for(HashMap<OntProperty, OntClass> o : res) {
-            System.out.println(o.size());
-            for(OntProperty key : o.keySet()) {
-                System.out.println("---------------------------------");
-                System.out.println(key.getURI() + "  " + o.get(key).getURI());
-            }
+        for(Pair<OntProperty, OntClass> o : res) {
+            System.out.println("---------------------------------");
+            System.out.println(o.toString());
+            System.out.println("---------------------------------");
         }
+//        System.out.println(getAllPath(ontModel, start, end));
     }
 }

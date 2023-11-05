@@ -2,9 +2,7 @@ package tool;
 
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
-import org.apache.jena.reasoner.Reasoner;
-import org.apache.jena.reasoner.ReasonerRegistry;
-import org.apache.jena.sparql.path.Path;
+
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
@@ -107,7 +105,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 新增加类的名称]
      * @return: org.apache.jena.ontology.OntClass
      **/
-    public static OntClass createClass(OntModel ontModel, String className) throws IOException {
+    public static OntClass createClass(OntModel ontModel, String className){
         OntClass newClass = getClass(ontModel, className);
         if(newClass != null) return newClass;
         String nameSpace = CoreOWLUtil.getNameSpace();
@@ -121,7 +119,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 类的名称]
      * @return: org.apache.jena.ontology.OntClass
      **/
-    public static OntClass getClass(OntModel ontModel, String className) throws IOException {
+    public static OntClass getClass(OntModel ontModel, String className) {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntClass newClass = ontModel.getOntClass(nameSpace + className);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
@@ -137,42 +135,93 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, fatherClass 父类, sonClass 子类]
      * @return: void
      **/
-    public static void addSubClass(OntModel ontModel, OntClass fatherClass, OntClass sonClass) throws IOException {
+    public static void addSubClass(OntModel ontModel, OntClass fatherClass, OntClass sonClass) {
         fatherClass.addSubClass(sonClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
+    private static Path genPath(LinkedList<Pair<OntProperty, OntClass>> stack) {
+        Path path = new Path();
+
+        // 遍历给定的堆栈
+        for (Pair<OntProperty, OntClass> pair : stack) {
+            path.add(pair);
+        }
+
+        // 返回生成的路径
+        return path;
+    }
+
 
     public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end) throws IOException {
-        LinkedList<Path> paths = new LinkedList<Path>();
-        OntClass top_node; //即栈顶节点
-        OntClass cur_node;//当前的临接节点
-        OntClass next_node;//下一个入栈节点
+        LinkedList<Path> paths = new LinkedList<>();
+        Pair<OntProperty, OntClass> top_node; //即栈顶节点
+        Pair<OntProperty, OntClass> cur_node;//当前的临接节点
+        Pair<OntProperty, OntClass> next_node;//下一个入栈节点
         //遍历过程中使用的栈
-        LinkedList<Integer> stack = new LinkedList<Integer>();
+        LinkedList<Pair<OntProperty, OntClass>> stack = new LinkedList<>();
         //标记节点是否在栈内，避免回路
-        Map<OntClass, Integer> states = new HashMap<OntClass, Integer>();
-        Queue<OntClass> queue = new LinkedList<>();
-        List<OntClass> add = new ArrayList<>();
-        add.add(start);
-        int num = 0;
+        Map<OntClass, Integer> states = new HashMap<>();
+        ExtendedIterator<OntClass> classes = ontModel.listClasses();
+        while (classes.hasNext()) {
+            OntClass ontClass = classes.next();
+            states.put(ontClass, 0);
+        }
+//        states.put(start, 1);
+        cur_node = null;
+        stack.add(new Pair<>(null, start));
+        while(!stack.isEmpty()) {
+            top_node = stack.getLast();
+            //找到一条路径
+            if(top_node.getValue().equals(end) && stack.size() > 1) {
+                if(! (stack.size() <= 2 && start.equals(end))) {
+                    paths.add(genPath(stack));
+                }
+                cur_node = stack.removeLast();
+                states.put(cur_node.getValue(), states.get(cur_node.getValue()) - 1);
+            }
+            else
+            {
+                List<Pair<OntProperty, OntClass>> next_nodes = getRelations(ontModel, top_node.getValue());
+                int flag = -1;
+                next_node = null;
+                for(Pair<OntProperty, OntClass> m : next_nodes) {
+                    if(cur_node == null) {
+                        next_node = m;
+                        break;
+                    }
+                    if(m.getValue().equals(cur_node)) {
+                        flag = 1;
+                        continue;
+                    }
+                    if(flag == -1 || (states.get(m.getValue()) == 1 && !end.equals(m.getValue()))) {
+                        continue;
+                    }
+                    else {
+                        next_node = m;
+                        break;
+                    }
+                }
+                if (next_node != null) {
+                    if(next_node.equals(end)) {
+                        System.out.println("ok");
+                    }
+                    stack.add(next_node);
+                    states.put(next_node.getValue(), states.get(next_node.getValue()) + 1);
+                    cur_node = null; //新节点入栈，要从头遍历它的所有临接节点
+                }
+                else {
+                    cur_node = stack.removeLast();
+                    states.put(cur_node.getValue(), 0);
+                }
+            }
 
-        queue.add(start);
-
+        }
 
         return paths;
-//        Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
-//
-//        // Find the paths between the two classes
-//        ExtendedIterator<org.apache.jena.graph.Triple> paths = ontModel.getGraph().find(start.asNode(),null,end.asNode());
-//        while (paths.hasNext()) {
-//            org.apache.jena.graph.Triple path = paths.next();
-//            System.out.println("-------");
-//            System.out.println(path);
-//            System.out.println("-------");
-//        }
-//        return null;
+
     }
+
 
 
     /*
@@ -182,7 +231,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, ontClass 类]
      * @return: Integer
      **/
-    public static Integer getDeep(OntModel ontModel, OntClass ontClass) throws IOException {
+    public static Integer getDeep(OntModel ontModel, OntClass ontClass) {
         int deep = 0;
         while(ontClass.hasSuperClass()) {
             deep++;
@@ -252,7 +301,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, BroClass 兄弟类, sonClass 子类]
      * @return: void
      **/
-    public static void addSiblingClass(OntModel ontModel, OntClass BroClass, OntClass sonClass) throws IOException {
+    public static void addSiblingClass(OntModel ontModel, OntClass BroClass, OntClass sonClass) {
         if(BroClass.equals(sonClass)) return;
         OntClass fatherClass = BroClass.getSuperClass();
         fatherClass.addSubClass(sonClass);
@@ -269,6 +318,8 @@ public class CoreOWLUtil {
     public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
+
+//        sourceClass.addProperty
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
@@ -281,35 +332,51 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
-    public static List<HashMap<OntProperty, OntClass>> getRelations(OntModel ontModel, OntClass sourceClass) throws IOException {
+    public static List<Pair<OntProperty, OntClass>> getRelations(OntModel ontModel, OntClass sourceClass) throws IOException {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties();
-        System.out.println(prop.toString());
-        List<HashMap<OntProperty, OntClass>> result = new ArrayList<HashMap<OntProperty, OntClass>>();
-        System.out.println("-----------------");
-        while (prop.hasNext()) {
-            OntProperty ppp = prop.next();
-            System.out.println(ppp.getURI());
-            OntClass next = ppp.getRange().asClass();
-            HashMap<OntProperty, OntClass> ad = new HashMap<OntProperty, OntClass>();
-            ad.put(ppp, next);
-            result.add(ad);
-        }
 
-        ExtendedIterator<OntProperty> properties = ontModel.listAllOntProperties()
-                .filterKeep(p -> p.getDomain().equals(sourceClass));
+        List<Pair<OntProperty, OntClass>> result = new ArrayList<>();
+//        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties(false);
+//        while (prop.hasNext()) {
+//            OntProperty ppp = prop.next();
+//            OntClass range = ppp.getRange().asClass();
+//            Pair<OntProperty, OntClass> ad = new Pair(ppp, range);
+//            if(range.equals(sourceClass)) {
+//                System.out.println("-------------------------");
+//                System.out.println("ok");
+//                System.out.println("-------------------------");
+//            }
+//            result.add(ad);
+//        }
+        Iterator properties = ontModel.listOntProperties();
         while (properties.hasNext()) {
-            OntProperty property = properties.next();
-            HashMap<OntProperty, OntClass> ad = new HashMap<OntProperty, OntClass>();
-            ExtendedIterator<? extends OntResource> rangeIter = property.listRange()
-                    .filterKeep(r -> r.asClass().hasSuperClass(sourceClass));
-            while (rangeIter.hasNext()) {
-                OntResource range = rangeIter.next();
-                OntClass next = range.asClass();
-                ad.put(property, next);
+            OntProperty property = (OntProperty) properties.next();
+            if(!(property.getDomain().getURI().compareTo(sourceClass.getURI()) == 0)) {
+                continue;
             }
+            OntClass range = property.getRange().asClass();
+
+            if(property.getRange().getURI().compareTo(sourceClass.getURI()) == 0) {
+                System.out.println("-------------------------");
+                System.out.println("ok");
+                System.out.println("-------------------------");
+            }
+            Pair<OntProperty, OntClass> ad = new Pair(property, range);
             result.add(ad);
         }
+//        ExtendedIterator<OntProperty> properties = ontModel.listAllOntProperties()
+//                .filterKeep(p -> p.getDomain().equals(sourceClass));
+//        while (properties.hasNext()) {
+//            OntProperty property = properties.next();
+//            OntClass range = property.getRange().asClass();
+//            if(range.equals(sourceClass)) {
+//                System.out.println("-------------------------");
+//                System.out.println("ok");
+//                System.out.println("-------------------------");
+//            }
+//            Pair<OntProperty, OntClass> ad = new Pair(property, range);
+//            result.add(ad);
+//        }
         System.out.println(result.size());
         System.out.println("-----------------");
         return  result;
