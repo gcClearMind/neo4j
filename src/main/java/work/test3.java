@@ -13,6 +13,8 @@ import tool.Pair;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
@@ -27,21 +29,32 @@ public class test3 {
 
         //rdf文件
         Model model = ModelFactory.createDefaultModel();
-        SetSourceName("http://www.ycao.org/MTSDesign");
+//        SetSourceName("http://www.ycao.org/MTSDesign");
+        SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("MTSDesign.rdf").toString();
+        String inputFileName = Paths.get("test3.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
-        OntClass start = CoreOWLUtil.getClass(ontModel,"FunctionalGraph");
-        System.out.println(start.getURI());
-//        OntClass end = CoreOWLUtil.getClass(ontModel,"Blocks:Block");
+//        OntClass a = createClass(ontModel, "a");
+        OntClass b = CoreOWLUtil.getClass(ontModel, "b");
+        OntClass c = CoreOWLUtil.getClass(ontModel, "c");
+        OntClass a = CoreOWLUtil.getClass(ontModel, "a");
+        OntClass cc = CoreOWLUtil.getClass(ontModel, "cc");
+//        addRelation(ontModel,a, b, "ac");
+//
+//        addRelation(ontModel,b, c, "ac");
+//        addRelation(ontModel,a, cc, "ac");
+
+
+        OntClass start = CoreOWLUtil.getClass(ontModel,"a");
 
         List<Pair<OntProperty, OntClass>> res = getRelations(ontModel, start);
-        ontModel.getsub
         for(Pair<OntProperty, OntClass> o : res) {
             System.out.println("---------------------------------");
             System.out.println(o.toString());
             System.out.println("---------------------------------");
         }
-//        System.out.println(getAllPath(ontModel, start, end));
+//        model.write(System.out, "N-TRIPLES");
+        OutputStream out = Files.newOutputStream(Paths.get("test3.rdf"));
+        model.write(out,"RDF/XML-ABBREV");
     }
 }

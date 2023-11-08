@@ -319,9 +319,10 @@ public class CoreOWLUtil {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
 
-//        sourceClass.addProperty()
+
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
+//        sourceClass.addProperty(newRelation, nameSpace+relationName);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
         return newRelation;
     }
@@ -336,35 +337,42 @@ public class CoreOWLUtil {
         String nameSpace = CoreOWLUtil.getNameSpace();
 
         List<Pair<OntProperty, OntClass>> result = new ArrayList<>();
-        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties(false);
-        while (prop.hasNext()) {
-            OntProperty ppp = prop.next();
-            OntClass range = ppp.getRange() == null ? null: ppp.getRange().asClass();
-
-            Pair<OntProperty, OntClass> ad = new Pair(ppp, range);
-//            if(range.equals(sourceClass)) {
-//                System.out.println("-------------------------");
-//                System.out.println("ok");
-//                System.out.println("-------------------------");
-//            }
-            result.add(ad);
-        }
-//        Iterator properties = ontModel.listOntProperties();
-//        while (properties.hasNext()) {
-//            OntProperty property = (OntProperty) properties.next();
-//            if(!(property.getDomain().getURI().compareTo(sourceClass.getURI()) == 0)) {
-//                continue;
-//            }
-//            OntClass range = property.getRange().asClass();
+        /*
+            一个property中有多个domain和range时无法返回该property
+         */
+//        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties(true);
+//        while (prop.hasNext()) {
+//            OntProperty ppp = prop.next();
+//            OntClass range = ppp.getRange() == null ? null: ppp.getRange().asClass();
 //
-//            if(property.getRange().getURI().compareTo(sourceClass.getURI()) == 0) {
-//                System.out.println("-------------------------");
-//                System.out.println("ok");
-//                System.out.println("-------------------------");
-//            }
-//            Pair<OntProperty, OntClass> ad = new Pair(property, range);
+//            Pair<OntProperty, OntClass> ad = new Pair(ppp, range);
+////            if(range.equals(sourceClass)) {
+////                System.out.println("-------------------------");
+////                System.out.println("ok");
+////                System.out.println("-------------------------");
+////            }
 //            result.add(ad);
 //        }
+        Iterator properties = ontModel.listOntProperties();
+        while (properties.hasNext()) {
+            OntProperty property = (OntProperty) properties.next();
+            Iterator<? extends OntResource> domains = property.listDomain();
+            while (domains.hasNext()) {
+                OntClass domain = domains.next().asClass();
+                if(!(domain.getURI().compareTo(sourceClass.getURI()) == 0)) {
+                    continue;
+                }
+                /*
+                todo
+                找不到对应的range
+                 */
+                OntClass range = property.getRange().asClass();
+                Pair<OntProperty, OntClass> ad = new Pair<>(property, range);
+                result.add(ad);
+            }
+
+
+        }
 //        ExtendedIterator<OntProperty> properties = ontModel.listAllOntProperties()
 //                .filterKeep(p -> p.getDomain().equals(sourceClass));
 //        while (properties.hasNext()) {
