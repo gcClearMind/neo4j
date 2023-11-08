@@ -27,16 +27,16 @@ public class test3 {
 
         //rdf文件
         Model model = ModelFactory.createDefaultModel();
-        SetSourceName("http://www.neo4j.com/ontologies/data.owl");
+        SetSourceName("http://www.ycao.org/MTSDesign");
 
-        String inputFileName = Paths.get("output.rdf").toString();
+        String inputFileName = Paths.get("MTSDesign.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
-        OntClass start = CoreOWLUtil.getClass(ontModel,"Blocks:Block");
+        OntClass start = CoreOWLUtil.getClass(ontModel,"FunctionalGraph");
         System.out.println(start.getURI());
-        OntClass end = CoreOWLUtil.getClass(ontModel,"Blocks:Block");
+//        OntClass end = CoreOWLUtil.getClass(ontModel,"Blocks:Block");
 
         List<Pair<OntProperty, OntClass>> res = getRelations(ontModel, start);
-
+        ontModel.getsub
         for(Pair<OntProperty, OntClass> o : res) {
             System.out.println("---------------------------------");
             System.out.println(o.toString());

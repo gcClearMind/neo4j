@@ -167,7 +167,7 @@ public class CoreOWLUtil {
             OntClass ontClass = classes.next();
             states.put(ontClass, 0);
         }
-//        states.put(start, 1);
+        states.put(start, 1);
         cur_node = null;
         stack.add(new Pair<>(null, start));
         while(!stack.isEmpty()) {
@@ -319,7 +319,7 @@ public class CoreOWLUtil {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
 
-//        sourceClass.addProperty
+//        sourceClass.addProperty()
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
 //        CoreOWLUtil.ontModel2Owl(ontModel);
@@ -336,34 +336,35 @@ public class CoreOWLUtil {
         String nameSpace = CoreOWLUtil.getNameSpace();
 
         List<Pair<OntProperty, OntClass>> result = new ArrayList<>();
-//        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties(false);
-//        while (prop.hasNext()) {
-//            OntProperty ppp = prop.next();
-//            OntClass range = ppp.getRange().asClass();
-//            Pair<OntProperty, OntClass> ad = new Pair(ppp, range);
+        ExtendedIterator<OntProperty> prop = sourceClass.listDeclaredProperties(false);
+        while (prop.hasNext()) {
+            OntProperty ppp = prop.next();
+            OntClass range = ppp.getRange() == null ? null: ppp.getRange().asClass();
+
+            Pair<OntProperty, OntClass> ad = new Pair(ppp, range);
 //            if(range.equals(sourceClass)) {
 //                System.out.println("-------------------------");
 //                System.out.println("ok");
 //                System.out.println("-------------------------");
 //            }
-//            result.add(ad);
-//        }
-        Iterator properties = ontModel.listOntProperties();
-        while (properties.hasNext()) {
-            OntProperty property = (OntProperty) properties.next();
-            if(!(property.getDomain().getURI().compareTo(sourceClass.getURI()) == 0)) {
-                continue;
-            }
-            OntClass range = property.getRange().asClass();
-
-            if(property.getRange().getURI().compareTo(sourceClass.getURI()) == 0) {
-                System.out.println("-------------------------");
-                System.out.println("ok");
-                System.out.println("-------------------------");
-            }
-            Pair<OntProperty, OntClass> ad = new Pair(property, range);
             result.add(ad);
         }
+//        Iterator properties = ontModel.listOntProperties();
+//        while (properties.hasNext()) {
+//            OntProperty property = (OntProperty) properties.next();
+//            if(!(property.getDomain().getURI().compareTo(sourceClass.getURI()) == 0)) {
+//                continue;
+//            }
+//            OntClass range = property.getRange().asClass();
+//
+//            if(property.getRange().getURI().compareTo(sourceClass.getURI()) == 0) {
+//                System.out.println("-------------------------");
+//                System.out.println("ok");
+//                System.out.println("-------------------------");
+//            }
+//            Pair<OntProperty, OntClass> ad = new Pair(property, range);
+//            result.add(ad);
+//        }
 //        ExtendedIterator<OntProperty> properties = ontModel.listAllOntProperties()
 //                .filterKeep(p -> p.getDomain().equals(sourceClass));
 //        while (properties.hasNext()) {
