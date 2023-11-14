@@ -39,10 +39,10 @@ public class test3 {
         OntClass c = CoreOWLUtil.getClass(ontModel, "c");
         OntClass a = CoreOWLUtil.getClass(ontModel, "a");
         OntClass cc = CoreOWLUtil.getClass(ontModel, "cc");
-//        addRelation(ontModel,a, b, "ac");
-//
-//        addRelation(ontModel,b, c, "ac");
-//        addRelation(ontModel,a, cc, "ac");
+        addRelation(ontModel,a, b, "ac");
+
+        addRelation(ontModel,b, c, "ac");
+        addRelation(ontModel,a, cc, "ac");
 
 
         OntClass start = CoreOWLUtil.getClass(ontModel,"a");

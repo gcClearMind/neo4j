@@ -247,50 +247,67 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, list 同一个节点下的标签]
      * @return: void
      **/
-    public static void addList(OntModel ontModel, List<Object> list) throws IOException {
+    public static List<OntClass> addList(OntModel ontModel, List<Object> list) {
+        List<OntClass> res_lists = new ArrayList<>();
         int deep = -1;
         String deepClassName = null;
         //创建所有节点，存在则获取,并找到最深的节点
+        String umlName = null;
         for(Object o: list) {
-            OntClass newClass = createClass(ontModel, o.toString());
+            String ClassName = o.toString();
+            OntClass newClass = createClass(ontModel, ClassName);
             int tmpDeep = getDeep(ontModel, newClass);
-            if(tmpDeep > deep || (deep == tmpDeep && o.toString().contains("uml"))) { // 找到最深的本体
-                deepClassName = o.toString();
+            if(tmpDeep > deep || (deep == tmpDeep && ClassName.contains("uml"))) { // 找到最深的本体
+                deepClassName = ClassName;
                 deep = tmpDeep;
+            }
+            if (ClassName.contains("uml")) {
+                umlName = ClassName;
             }
         }
         if(deepClassName.contains("uml")) { // 只有一层
             OntClass fatherClass = getClass(ontModel, deepClassName);
             for(Object o: list) {
-                if(o.toString().contains("uml")) continue;
-                OntClass sonClass = getClass(ontModel, o.toString());
+                String ClassName = o.toString();
+                if(ClassName.contains("uml")) continue;
+                OntClass sonClass = getClass(ontModel, ClassName);
+                res_lists.add(sonClass);
                 addSubClass(ontModel, fatherClass, sonClass);
             }
         }
         else {
             Map<OntClass, Integer> dirt = new HashMap<>();
-            OntClass BroClass = getClass(ontModel, deepClassName);
             OntClass tmpClass = getClass(ontModel, deepClassName);
             dirt.put(tmpClass, 1);
             while(tmpClass.hasSuperClass()) {
                 tmpClass = tmpClass.getSuperClass();
                 dirt.put(tmpClass, 1);
             }
-            for(Object o: list) {
-                OntClass sonClass = getClass(ontModel, o.toString());
-                if(dirt.containsKey(sonClass)) continue;
-
-                addSiblingClass(ontModel, BroClass, sonClass);
-                /*
-                debug
-                 */
-                if(getClass(ontModel, "uml:DataType")!=null && getClass(ontModel, "uml:DataType").hasSuperClass()) {
-                    System.out.println("--------------");
-                    System.out.println(list);
-                    System.out.println("--------------");
+            for(Object o : list) {
+                String ClassName = o.toString();
+                OntClass sonClass = getClass(ontModel, ClassName);
+                if(dirt.containsKey(sonClass)) {
+                    continue;
+                }
+                OntClass umlClass = getClass(ontModel, umlName);
+                tmpClass = getClass(ontModel, ClassName);
+                while(tmpClass.hasSuperClass()) {//存在上级则得到最上级
+                    dirt.put(tmpClass, 1);
+                    tmpClass = tmpClass.getSuperClass();
+                }
+                if(tmpClass.getURI().equals(umlClass.getURI())) { //如果上级一致 但和最长链不属于同一分支 不处理
+                    continue;
+                }
+                else if(tmpClass.getURI().equals(sonClass.getURI())){ //上级不一致，但无上级
+                    res_lists.add(sonClass);
+                    addSubClass(ontModel, umlClass, sonClass);
+                }
+                else { //上级不一致且存在上级
+                    res_lists.add(sonClass);
                 }
             }
         }
+        return res_lists;
     }
 
 
@@ -353,6 +370,11 @@ public class CoreOWLUtil {
 ////            }
 //            result.add(ad);
 //        }
+
+        /*
+
+         */
+
         Iterator properties = ontModel.listOntProperties();
         while (properties.hasNext()) {
             OntProperty property = (OntProperty) properties.next();
@@ -362,10 +384,7 @@ public class CoreOWLUtil {
                 if(!(domain.getURI().compareTo(sourceClass.getURI()) == 0)) {
                     continue;
                 }
-                /*
-                todo
-                找不到对应的range
-                 */
+
                 OntClass range = property.getRange().asClass();
                 Pair<OntProperty, OntClass> ad = new Pair<>(property, range);
                 result.add(ad);

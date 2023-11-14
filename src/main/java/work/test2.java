@@ -63,19 +63,23 @@ public class test2 {
                 ad.add("0");
                 ad.add("0");
                 // 处理子类关系
-                addList(ontModel, first);
-                addList(ontModel, second);
+                List<OntClass> first_add_classes = addList(ontModel, first);
+                List<OntClass> second_add_classes = addList(ontModel, second);
                 // 处理直接关系
-                for(Object o1: first) {
-                    String first_label = o1.toString();
+                for(OntClass o1: first_add_classes) {
+                    String first_label = o1.getURI().substring(o1.getURI().indexOf('#') + 1);
                     if(first_label.contains("uml") && first.size() != 1) { // 判断为不为uml类的label
                         continue;
-                     }
-                    for(Object o2: second) {
-                        String second_label = o2.toString();
+                    }
+                    for(OntClass o2: second_add_classes) {
+                        String second_label = o2.getURI().substring(o2.getURI().indexOf('#') + 1);
                         if(second_label.contains("uml") && second.size() != 1) {
                             continue;
                         }
+                        /*
+                        todo
+                        String shu ru gai jie duan
+                         */
                         ad.set(0,first_label);
                         ad.set(1,rel);
                         ad.set(2,second_label);
@@ -98,7 +102,7 @@ public class test2 {
         }
 //        printClasses(ontModel);
 
-//        model.write(System.out, "N-TRIPLES");
+        model.write(System.out, "N-TRIPLES");
         OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
