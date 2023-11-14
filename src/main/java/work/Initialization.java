@@ -1,20 +1,16 @@
 package work;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.util.FileManager;
 import tool.CoreOWLUtil;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Properties;
 
 import static tool.CoreOWLUtil.*;
 
@@ -41,7 +37,7 @@ public class Initialization {
             List<String> o = Arrays.asList(rel.split(" "));
             OntClass father = CoreOWLUtil.createClass(ontModel, o.get(0));
             OntClass son = CoreOWLUtil.createClass(ontModel, o.get(1));
-            addSubClass(ontModel, father, son);
+            addSubClass(father, son);
         }
         model.write(System.out, "N-TRIPLES");
         OutputStream out = Files.newOutputStream(Paths.get("Initialization.rdf"));

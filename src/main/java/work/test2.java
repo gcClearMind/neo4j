@@ -2,10 +2,8 @@ package work;
 
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.util.FileManager;
 import org.neo4j.driver.*;
 import org.neo4j.driver.Record;
 import tool.CoreOWLUtil;
@@ -13,8 +11,6 @@ import tool.CoreOWLUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
-import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -76,10 +72,7 @@ public class test2 {
                         if(second_label.contains("uml") && second.size() != 1) {
                             continue;
                         }
-                        /*
-                        todo
-                        String shu ru gai jie duan
-                         */
+
                         ad.set(0,first_label);
                         ad.set(1,rel);
                         ad.set(2,second_label);
@@ -100,9 +93,9 @@ public class test2 {
             OntClass second = CoreOWLUtil.createClass(ontModel, o.get(2));
             addRelation(ontModel, first, second, relationName);
         }
-//        printClasses(ontModel);
-
-        model.write(System.out, "N-TRIPLES");
+        printClasses(ontModel);
+        printProperties(ontModel);
+//        model.write(System.out, "N-TRIPLES");
         OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }

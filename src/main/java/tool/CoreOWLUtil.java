@@ -46,11 +46,25 @@ public class CoreOWLUtil {
     public static void printClasses(OntModel ontModel) {
         // 获取所有类
         ExtendedIterator<OntClass> classes = ontModel.listClasses();
-
+        int size = 0;
         while (classes.hasNext()) {
+            size++;
             OntClass ontClass = classes.next();
             System.out.println("Class: " + ontClass.getURI());
         }
+        System.out.println("Class size: " + size);
+    }
+
+    public static void printProperties(OntModel ontModel) {
+        // 获取所有类
+        int size = 0;
+       Iterator<OntProperty> properties = ontModel.listOntProperties();
+       while (properties.hasNext()) {
+           size++;
+           OntProperty property = properties.next();
+           System.out.println("Property: " + property.getURI());
+       }
+        System.out.println("Property size: " + size);
     }
 
 
@@ -62,10 +76,8 @@ public class CoreOWLUtil {
         }
 
         model.read(in, null);
-        OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM, model);
-        return ontModel;
+        return ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM, model);
     }
-
 
     public static void ontModel2Owl(OntModel ontModel) throws IOException {
         //输出owl文件到文件系统
@@ -99,7 +111,6 @@ public class CoreOWLUtil {
         baseOnt.read(SOURCE, "RDF/XML");
         return baseOnt;
     }
-
     /*
      * @Description: 新增加一个类
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, className 新增加类的名称]
@@ -110,7 +121,6 @@ public class CoreOWLUtil {
         if(newClass != null) return newClass;
         String nameSpace = CoreOWLUtil.getNameSpace();
         newClass = ontModel.createClass(nameSpace + className);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
         return newClass;
     }
 
@@ -121,10 +131,7 @@ public class CoreOWLUtil {
      **/
     public static OntClass getClass(OntModel ontModel, String className) {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        OntClass newClass = ontModel.getOntClass(nameSpace + className);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
-
-        return newClass;
+        return ontModel.getOntClass(nameSpace + className);
     }
 
 
@@ -135,9 +142,8 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, fatherClass 父类, sonClass 子类]
      * @return: void
      **/
-    public static void addSubClass(OntModel ontModel, OntClass fatherClass, OntClass sonClass) {
+    public static void addSubClass(OntClass fatherClass, OntClass sonClass) {
         fatherClass.addSubClass(sonClass);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
     private static Path genPath(LinkedList<Pair<OntProperty, OntClass>> stack) {
@@ -153,7 +159,7 @@ public class CoreOWLUtil {
     }
 
 
-    public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end) throws IOException {
+    public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end) {
         LinkedList<Path> paths = new LinkedList<>();
         Pair<OntProperty, OntClass> top_node; //即栈顶节点
         Pair<OntProperty, OntClass> cur_node;//当前的临接节点
@@ -174,7 +180,7 @@ public class CoreOWLUtil {
             top_node = stack.getLast();
             //找到一条路径
             if(top_node.getValue().equals(end) && stack.size() > 1) {
-                if(! (stack.size() <= 2 && start.equals(end))) {
+                if(! (stack.size() == 2 && start.equals(end))) {
                     paths.add(genPath(stack));
                 }
                 cur_node = stack.removeLast();
@@ -231,7 +237,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, ontClass 类]
      * @return: Integer
      **/
-    public static Integer getDeep(OntModel ontModel, OntClass ontClass) {
+    public static Integer getDeep(OntClass ontClass) {
         int deep = 0;
         while(ontClass.hasSuperClass()) {
             deep++;
@@ -256,7 +262,7 @@ public class CoreOWLUtil {
         for(Object o: list) {
             String ClassName = o.toString();
             OntClass newClass = createClass(ontModel, ClassName);
-            int tmpDeep = getDeep(ontModel, newClass);
+            int tmpDeep = getDeep(newClass);
             if(tmpDeep > deep || (deep == tmpDeep && ClassName.contains("uml"))) { // 找到最深的本体
                 deepClassName = ClassName;
                 deep = tmpDeep;
@@ -265,20 +271,24 @@ public class CoreOWLUtil {
                 umlName = ClassName;
             }
         }
+        assert deepClassName != null;
         if(deepClassName.contains("uml")) { // 只有一层
             OntClass fatherClass = getClass(ontModel, deepClassName);
+            if(list.size() == 1) {
+                res_lists.add(fatherClass);
+                return res_lists;
+            }
             for(Object o: list) {
                 String ClassName = o.toString();
                 if(ClassName.contains("uml")) continue;
                 OntClass sonClass = getClass(ontModel, ClassName);
                 res_lists.add(sonClass);
-                addSubClass(ontModel, fatherClass, sonClass);
+                addSubClass(fatherClass, sonClass);
             }
         }
         else {
             Map<OntClass, Integer> dirt = new HashMap<>();
             OntClass tmpClass = getClass(ontModel, deepClassName);
-            dirt.put(tmpClass, 1);
             while(tmpClass.hasSuperClass()) {
                 tmpClass = tmpClass.getSuperClass();
                 dirt.put(tmpClass, 1);
@@ -296,11 +306,12 @@ public class CoreOWLUtil {
                     tmpClass = tmpClass.getSuperClass();
                 }
                 if(tmpClass.getURI().equals(umlClass.getURI())) { //如果上级一致 但和最长链不属于同一分支 不处理
+                    res_lists.add(sonClass);
                     continue;
                 }
                 else if(tmpClass.getURI().equals(sonClass.getURI())){ //上级不一致，但无上级
                     res_lists.add(sonClass);
-                    addSubClass(ontModel, umlClass, sonClass);
+                    addSubClass(umlClass, sonClass);
                 }
                 else { //上级不一致且存在上级
                     res_lists.add(sonClass);
@@ -318,11 +329,10 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, BroClass 兄弟类, sonClass 子类]
      * @return: void
      **/
-    public static void addSiblingClass(OntModel ontModel, OntClass BroClass, OntClass sonClass) {
+    public static void addSiblingClass(OntClass BroClass, OntClass sonClass) {
         if(BroClass.equals(sonClass)) return;
         OntClass fatherClass = BroClass.getSuperClass();
         fatherClass.addSubClass(sonClass);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
     /*
@@ -332,15 +342,13 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类, targetClass 尾类, relationName 关系名称]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
-    public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName) throws IOException {
+    public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName)  {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
 
-
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
-//        sourceClass.addProperty(newRelation, nameSpace+relationName);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
+
         return newRelation;
     }
 
@@ -350,8 +358,7 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
-    public static List<Pair<OntProperty, OntClass>> getRelations(OntModel ontModel, OntClass sourceClass) throws IOException {
-        String nameSpace = CoreOWLUtil.getNameSpace();
+    public static List<Pair<OntProperty, OntClass>> getRelations(OntModel ontModel, OntClass sourceClass)  {
 
         List<Pair<OntProperty, OntClass>> result = new ArrayList<>();
         /*
@@ -375,9 +382,9 @@ public class CoreOWLUtil {
 
          */
 
-        Iterator properties = ontModel.listOntProperties();
+        Iterator<OntProperty> properties = ontModel.listOntProperties();
         while (properties.hasNext()) {
-            OntProperty property = (OntProperty) properties.next();
+            OntProperty property =  properties.next();
             Iterator<? extends OntResource> domains = property.listDomain();
             while (domains.hasNext()) {
                 OntClass domain = domains.next().asClass();
@@ -408,8 +415,6 @@ public class CoreOWLUtil {
         System.out.println(result.size());
         System.out.println("-----------------");
         return  result;
- //        CoreOWLUtil.ontModel2Owl(ontModel);
-
     }
 
     /*
@@ -419,11 +424,10 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, ontClass 需要被添加的类别, propertyName 属性名称]
      * @return: org.apache.jena.ontology.DatatypeProperty
      **/
-    public static DatatypeProperty addProperty(OntModel ontModel, OntClass ontClass, String propertyName) throws IOException {
+    public static DatatypeProperty addProperty(OntModel ontModel, OntClass ontClass, String propertyName) {
         String nameSpace = CoreOWLUtil.getNameSpace();
         DatatypeProperty newProperty = ontModel.createDatatypeProperty(nameSpace + propertyName);
         newProperty.addDomain(ontClass);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
         return newProperty;
     }
 
@@ -434,11 +438,10 @@ public class CoreOWLUtil {
      * @param: [ontModel, ontClass, propertyName]
      * @return: void
      **/
-    public static void removeProperty(OntModel ontModel, OntClass ontClass, String propertyName) throws IOException {
+    public static void removeProperty(OntModel ontModel, OntClass ontClass, String propertyName) {
         String nameSpace = CoreOWLUtil.getNameSpace();
         DatatypeProperty newProperty = ontModel.createDatatypeProperty(nameSpace + propertyName);
         newProperty.removeDomain(ontClass);
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
     /*
@@ -448,10 +451,9 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, classname 需要删除的类的名称]
      * @return: void
      **/
-    public static void removeClass(OntModel ontModel, String classname) throws Exception {
+    public static void removeClass(OntModel ontModel, String classname) {
         OntClass ontClass = CoreOWLUtil.createClass(ontModel, classname);
         ontClass.remove();
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
     /*
@@ -461,7 +463,7 @@ public class CoreOWLUtil {
      * @param: [ontModel, propertyName 关系的名称, ontClass 要从这个关系中移除的类]
      * @return: void
      **/
-    public static void removeRelationDomainAndRange(OntModel ontModel, String propertyName, OntClass ontClass) throws IOException {
+    public static void removeRelationDomainAndRange(OntModel ontModel, String propertyName, OntClass ontClass) {
         String nameSpace = CoreOWLUtil.getNameSpace();
         ObjectProperty relation = ontModel.createObjectProperty(nameSpace + propertyName);
         //只要这个类是这个关系的range或者domain，就进行删除
@@ -471,10 +473,9 @@ public class CoreOWLUtil {
         if(relation.hasRange(ontClass)){
             relation.removeRange(ontClass);
         }
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
-    public static void removeRelation(OntModel ontModel, String propertyName, OntClass domain, OntClass range) throws IOException {
+    public static void removeRelation(OntModel ontModel, String propertyName, OntClass domain, OntClass range) {
         String nameSpace = CoreOWLUtil.getNameSpace();
         ObjectProperty relation = ontModel.createObjectProperty(nameSpace + propertyName);
         if(relation.hasDomain(domain)){
@@ -483,7 +484,6 @@ public class CoreOWLUtil {
         if(relation.hasRange(range)){
             relation.removeRange(range);
         }
-//        CoreOWLUtil.ontModel2Owl(ontModel);
     }
 
 }
