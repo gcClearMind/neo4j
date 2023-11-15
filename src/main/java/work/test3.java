@@ -34,16 +34,16 @@ public class test3 {
 
         String inputFileName = Paths.get("test3.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
-//        OntClass a = createClass(ontModel, "a");
         OntClass b = CoreOWLUtil.getClass(ontModel, "b");
         OntClass c = CoreOWLUtil.getClass(ontModel, "c");
         OntClass a = CoreOWLUtil.getClass(ontModel, "a");
         OntClass cc = CoreOWLUtil.getClass(ontModel, "cc");
-        addRelation(ontModel,a, b, "ac");
-
-        addRelation(ontModel,b, c, "ac");
-        addRelation(ontModel,a, cc, "ac");
-
+//        addRelation(ontModel,a, a, "a2");
+//        addRelation(ontModel,a, b, "ac");
+//
+//        addRelation(ontModel,b, c, "ac");
+//        addRelation(ontModel,a, cc, "ac");
+        addRelation(ontModel,b, b, "a2");
 
         OntClass start = CoreOWLUtil.getClass(ontModel,"a");
 

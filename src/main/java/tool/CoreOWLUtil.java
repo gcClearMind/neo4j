@@ -68,6 +68,17 @@ public class CoreOWLUtil {
     }
 
 
+    public static Integer getPropertyNumber(OntProperty property) {
+        int num = 0;
+        Iterator<? extends OntProperty> subProperties =  property.listSubProperties();
+        while (subProperties.hasNext()) {
+            OntProperty subProperty = subProperties.next();
+            num++;
+        }
+        return num;
+    }
+
+
     public static OntModel getOntModel(Model model, String inputFileName) throws IllegalArgumentException {
         InputStream in = FileManager.get().open(inputFileName);
         if(in == null){
@@ -344,11 +355,16 @@ public class CoreOWLUtil {
      **/
     public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName)  {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName);
+        OntProperty fatherRelation = ontModel.createOntProperty(nameSpace + relationName);
+        // todo 加边？ 图怎么存？
 
+        // todo 扩展到子类?
+        int number = getPropertyNumber(fatherRelation);
+        OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName + "-" + number);
+//        fatherRelation.addDomain(sourceClass);
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
-
+        fatherRelation.addSubProperty(newRelation);
         return newRelation;
     }
 
