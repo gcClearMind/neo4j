@@ -34,8 +34,21 @@ public class Pair<K, V> {
 
     @Override
     public String toString() {
-        if (value == null) return  key.toString();
-        else
-        return "(" + key.toString() + "," + value.toString() + ")";
+        String res = "(";
+        if(key == null) {
+            res += "null";
+        }
+        else {
+            res += key.toString();
+        }
+        res += ", ";
+        if (value == null) {
+            res += "null";
+        }
+        else{
+            res += value.toString();
+        }
+        res += ")";
+        return res;
     }
 }

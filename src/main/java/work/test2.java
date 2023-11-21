@@ -1,5 +1,6 @@
 package work;
 
+import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Model;
@@ -48,7 +49,7 @@ public class test2 {
                     : o1.get(0).compareTo(o2.get(0));
         });
         try (Session session = driver.session()) {
-            Result result = session.run("MATCH (n)-[r]-(m) RETURN labels(n) as first , labels(m) as second ,type(r) as relation");
+            Result result = session.run("MATCH (n)-[r]-> (m) RETURN labels(n) as first , labels(m) as second ,type(r) as relation");
             while (result.hasNext()) {
                 Record record = result.next();
                 List<Object> first = record.get("first").asList();
@@ -92,6 +93,7 @@ public class test2 {
             String relationName = o.get(1);
             OntClass second = CoreOWLUtil.createClass(ontModel, o.get(2));
             addRelation(ontModel, first, second, relationName);
+//            System.out.println(first.getURI() + "  " + relationName + " " + second.getURI());
         }
         printClasses(ontModel);
         printProperties(ontModel);

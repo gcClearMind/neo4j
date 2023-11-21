@@ -1,5 +1,6 @@
 package tool;
 
+import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
 
@@ -184,34 +185,56 @@ public class CoreOWLUtil {
             OntClass ontClass = classes.next();
             states.put(ontClass, 0);
         }
-        states.put(start, 1);
+        if(!start.equals(end)) {
+            states.put(start, 1);
+        }
         cur_node = null;
-        stack.add(new Pair<>(null, start));
+        int i = 0;
+        stack.add(new Pair<OntProperty, OntClass>(null, start));
         while(!stack.isEmpty()) {
+            System.out.println(stack.size());
             top_node = stack.getLast();
+            if(stack.size() > 10) {
+                cur_node = stack.removeLast();
+                states.put(cur_node.getValue(), 0);
+                continue;
+            }
             //找到一条路径
             if(top_node.getValue().equals(end) && stack.size() > 1) {
-                if(! (stack.size() == 2 && start.equals(end))) {
-                    paths.add(genPath(stack));
-                }
+//                if(! (stack.size() == 2 && start.equals(end))) {
+                    Path path = genPath(stack);
+                    if(paths.contains(path)) {
+                        System.out.println("----------------------------------");
+                    }
+                    paths.add(path);
+                    System.out.println("res        " + (++i));
+//                }
                 cur_node = stack.removeLast();
-                states.put(cur_node.getValue(), states.get(cur_node.getValue()) - 1);
+                states.put(cur_node.getValue(), 0);
+                continue;
             }
-            else
-            {
+            else {
                 List<Pair<OntProperty, OntClass>> next_nodes = getRelations(ontModel, top_node.getValue());
                 int flag = -1;
                 next_node = null;
                 for(Pair<OntProperty, OntClass> m : next_nodes) {
                     if(cur_node == null) {
+                        if(states.get(m.getValue()) > 0) {
+                            continue;
+                        }
                         next_node = m;
                         break;
                     }
-                    if(m.getValue().equals(cur_node)) {
-                        flag = 1;
+                    if(m.getValue().equals(cur_node.getValue())) {
+                        if(m.getKey() == null || m.getKey().equals(cur_node.getKey())) {
+                            flag = 1;
+                        }
                         continue;
                     }
-                    if(flag == -1 || (states.get(m.getValue()) == 1 && !end.equals(m.getValue()))) {
+                    if(flag == -1) {
+                        continue;
+                    }
+                    if(states.get(m.getValue()) > 0) {
                         continue;
                     }
                     else {
@@ -220,14 +243,15 @@ public class CoreOWLUtil {
                     }
                 }
                 if (next_node != null) {
-                    if(next_node.equals(end)) {
+                    if(next_node.getValue().equals(end)) {
                         System.out.println("ok");
                     }
                     stack.add(next_node);
-                    states.put(next_node.getValue(), states.get(next_node.getValue()) + 1);
+                    //states.get(next_node.getValue()) + 1
+                    states.put(next_node.getValue(), 1);
                     cur_node = null; //新节点入栈，要从头遍历它的所有临接节点
                 }
-                else {
+                else {//遍历完了
                     cur_node = stack.removeLast();
                     states.put(cur_node.getValue(), 0);
                 }
@@ -428,8 +452,8 @@ public class CoreOWLUtil {
 //            Pair<OntProperty, OntClass> ad = new Pair(property, range);
 //            result.add(ad);
 //        }
-        System.out.println(result.size());
-        System.out.println("-----------------");
+//        System.out.println(result.size());
+//        System.out.println("-----------------");
         return  result;
     }
 
