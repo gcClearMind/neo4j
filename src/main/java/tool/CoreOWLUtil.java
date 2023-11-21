@@ -180,7 +180,7 @@ public class CoreOWLUtil {
     }
 
 
-    public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end) {
+    public static LinkedList<Path> getAllPath(OntModel ontModel, OntClass start, OntClass end, int Max_Path_Number) {
         LinkedList<Path> paths = new LinkedList<>();
         Pair<OntProperty, OntClass> top_node; //即栈顶节点
         Pair<OntProperty, OntClass> cur_node;//当前的临接节点
@@ -201,9 +201,9 @@ public class CoreOWLUtil {
         int i = 0;
         stack.add(new Pair<OntProperty, OntClass>(null, start));
         while(!stack.isEmpty()) {
-            System.out.println(stack.size());
+//            System.out.println(stack.size());
             top_node = stack.getLast();
-            if(stack.size() > 9) {
+            if(stack.size() > Max_Path_Number) {
                 cur_node = stack.removeLast();
                 states.put(cur_node.getValue(), 0);
                 continue;
@@ -219,6 +219,7 @@ public class CoreOWLUtil {
                 Path path = genPath(stack);
                 if(paths.contains(path)) {
                     System.out.println("--------------------------");
+
                 }
                 paths.add(path);
                 System.out.println("res        " + (++i));

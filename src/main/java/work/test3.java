@@ -44,10 +44,10 @@ public class test3 {
 //        for(Pair<OntProperty, OntClass> a : next_nodes) {
 //            System.out.println(a.toString());
 //        }
-        LinkedList<Path> paths =  getAllPath(ontModel, start, end);
-        for(Path path : paths) {
-            System.out.println(path);
-        }
+        LinkedList<Path> paths =  getAllPath(ontModel, start, end, 9);
+//        for(Path path : paths) {
+//            System.out.println(path);
+//        }
 
         System.out.println(paths.size());
     }
