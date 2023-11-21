@@ -1,5 +1,6 @@
 package work;
 
+import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntProperty;
@@ -39,6 +40,10 @@ public class test3 {
 
         OntClass start = CoreOWLUtil.getClass(ontModel, "Blocks:Block");
         OntClass end = CoreOWLUtil.getClass(ontModel, "Blocks:Block");
+//        List<Pair<OntProperty, OntClass>> next_nodes = getRelations(ontModel, start);
+//        for(Pair<OntProperty, OntClass> a : next_nodes) {
+//            System.out.println(a.toString());
+//        }
         LinkedList<Path> paths =  getAllPath(ontModel, start, end);
         for(Path path : paths) {
             System.out.println(path);

@@ -69,11 +69,16 @@ public class CoreOWLUtil {
     }
 
 
-    public static Integer getPropertyNumber(OntProperty property) {
+    public static Integer getPropertyNumber(OntProperty property, OntClass sourceClass, OntClass targetClass) {
         int num = 0;
         Iterator<? extends OntProperty> subProperties =  property.listSubProperties();
         while (subProperties.hasNext()) {
             OntProperty subProperty = subProperties.next();
+            if(subProperty.getDomain().asClass().equals(sourceClass) &&
+                subProperty.getRange().asClass().equals(targetClass)) {
+                num = -1;
+                break;
+            }
             num++;
         }
         return num;
@@ -163,7 +168,11 @@ public class CoreOWLUtil {
 
         // 遍历给定的堆栈
         for (Pair<OntProperty, OntClass> pair : stack) {
-            path.add(pair);
+            OntProperty property = pair.getKey();
+            if (property != null) {
+                property = property.getSuperProperty();
+            }
+            path.add(new Pair<>(property, pair.getValue()));
         }
 
         // 返回生成的路径
@@ -194,21 +203,25 @@ public class CoreOWLUtil {
         while(!stack.isEmpty()) {
             System.out.println(stack.size());
             top_node = stack.getLast();
-            if(stack.size() > 10) {
+            if(stack.size() > 9) {
                 cur_node = stack.removeLast();
                 states.put(cur_node.getValue(), 0);
                 continue;
             }
             //找到一条路径
             if(top_node.getValue().equals(end) && stack.size() > 1) {
-//                if(! (stack.size() == 2 && start.equals(end))) {
-                    Path path = genPath(stack);
-                    if(paths.contains(path)) {
-                        System.out.println("----------------------------------");
-                    }
-                    paths.add(path);
-                    System.out.println("res        " + (++i));
-//                }
+                if(stack.size() == 2 && start.equals(end)) { // 自环
+                    cur_node = stack.removeLast();
+                    states.put(cur_node.getValue(), 0);
+                    continue;
+                }
+                //形成路径
+                Path path = genPath(stack);
+                if(paths.contains(path)) {
+                    System.out.println("--------------------------");
+                }
+                paths.add(path);
+                System.out.println("res        " + (++i));
                 cur_node = stack.removeLast();
                 states.put(cur_node.getValue(), 0);
                 continue;
@@ -218,23 +231,23 @@ public class CoreOWLUtil {
                 int flag = -1;
                 next_node = null;
                 for(Pair<OntProperty, OntClass> m : next_nodes) {
-                    if(cur_node == null) {
-                        if(states.get(m.getValue()) > 0) {
+                    if(cur_node == null) {  //新节点 从头遍历
+                        if(states.get(m.getValue()) > 0) { // 已经遍历过
                             continue;
                         }
                         next_node = m;
                         break;
                     }
-                    if(m.getValue().equals(cur_node.getValue())) {
-                        if(m.getKey() == null || m.getKey().equals(cur_node.getKey())) {
+                    if(flag == -1 && m.getValue().equals(cur_node.getValue())) { // 找到了上一次遍历的节点
+                        if(m.getKey() == null  || m.getKey().equals(cur_node.getKey())) { //且路径相同
                             flag = 1;
                         }
                         continue;
                     }
-                    if(flag == -1) {
+                    if(flag == -1) { // 未找到上次遍历到的节点
                         continue;
                     }
-                    if(states.get(m.getValue()) > 0) {
+                    if(states.get(m.getValue()) > 0) { // 如果已经遍历过
                         continue;
                     }
                     else {
@@ -244,7 +257,7 @@ public class CoreOWLUtil {
                 }
                 if (next_node != null) {
                     if(next_node.getValue().equals(end)) {
-                        System.out.println("ok");
+//                        System.out.println("ok");
                     }
                     stack.add(next_node);
                     //states.get(next_node.getValue()) + 1
@@ -377,19 +390,22 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类, targetClass 尾类, relationName 关系名称]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
-    public static OntProperty addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName)  {
+    public static void addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName)  {
         String nameSpace = CoreOWLUtil.getNameSpace();
         OntProperty fatherRelation = ontModel.createOntProperty(nameSpace + relationName);
         // todo 加边？ 图怎么存？
 
         // todo 扩展到子类?
-        int number = getPropertyNumber(fatherRelation);
+        int number = getPropertyNumber(fatherRelation, sourceClass, targetClass);
+        if(number == -1) {// 已存在
+            return ;
+        }
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName + "-" + number);
 //        fatherRelation.addDomain(sourceClass);
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
         fatherRelation.addSubProperty(newRelation);
-        return newRelation;
+        return ;
     }
 
     /*
