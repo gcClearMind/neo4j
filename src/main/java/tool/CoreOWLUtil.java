@@ -85,6 +85,60 @@ public class CoreOWLUtil {
     }
 
 
+    public static String getRealName(String ontName) {
+        return ontName.substring(ontName.indexOf('#') + 1);
+    }
+
+
+    public static String showPath(Path path) {
+        List<Pair<OntProperty, OntClass>> pathList = path.getPathList();
+        List<Pair<String, String>> realList = new ArrayList<>();
+        for(Pair<OntProperty, OntClass> o : pathList) {
+            String KeyName = null, ValueName = null;
+            if (o.getKey() != null) {
+                KeyName = getRealName(o.getKey().getURI());
+            }
+            ValueName = getRealName(o.getValue().getURI());
+            realList.add(new Pair<>(KeyName, ValueName));
+        }
+        return realList.toString();
+    }
+
+
+
+    public static String getSWRL(Path path) {
+        int index = 0;
+        String res = "";
+        String cur = null;
+        String now = null;
+        List<Pair<OntProperty, OntClass>> pathList = path.getPathList();
+        for(Pair<OntProperty, OntClass> o : pathList) {
+            String KeyName = null, ValueName = null;
+            if(o.getKey() != null) {
+                KeyName = getRealName(o.getKey().getURI());
+            }
+            ValueName = getRealName(o.getValue().getURI());
+            now = String.valueOf((char)('a' + index));
+            if(KeyName == null) {
+                res += ValueName + "(?" + now + ") ^ ";
+                cur = now;
+            }
+            else {
+                res +=  KeyName + "(?" + cur + ", ?" + now + ") ^ ";
+                if(index != pathList.size() - 1) {
+                    res += ValueName + "(?" + now + ") ^ ";
+                }
+                else {
+                    res += ValueName + "(?" + now + ")";
+                }
+                cur = now;
+            }
+            index++;
+        }
+        return res;
+    }
+
+
     public static OntModel getOntModel(Model model, String inputFileName) throws IllegalArgumentException {
         InputStream in = FileManager.get().open(inputFileName);
         if(in == null){
@@ -245,6 +299,7 @@ public class CoreOWLUtil {
                         }
                         continue;
                     }
+
                     if(flag == -1) { // 未找到上次遍历到的节点
                         continue;
                     }

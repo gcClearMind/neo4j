@@ -44,10 +44,12 @@ public class test3 {
 //        for(Pair<OntProperty, OntClass> a : next_nodes) {
 //            System.out.println(a.toString());
 //        }
-        LinkedList<Path> paths =  getAllPath(ontModel, start, end, 7);
-//        for(Path path : paths) {
-//            System.out.println(path);
-//        }
+        LinkedList<Path> paths =  getAllPath(ontModel, start, end, 3);
+        for(Path path : paths) {
+            System.out.println(showPath(path));
+            System.out.println(getSWRL(path));
+            System.out.println("----------------------------------------------------");
+        }
 
         System.out.println(paths.size());
     }
