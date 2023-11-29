@@ -108,7 +108,7 @@ public class CoreOWLUtil {
 
     public static String getSWRL(Path path) {
         int index = 0;
-        String res = "";
+        StringBuilder res = new StringBuilder();
         String cur = null;
         String now = null;
         List<Pair<OntProperty, OntClass>> pathList = path.getPathList();
@@ -120,22 +120,21 @@ public class CoreOWLUtil {
             ValueName = getRealName(o.getValue().getURI());
             now = String.valueOf((char)('a' + index));
             if(KeyName == null) {
-                res += ValueName + "(?" + now + ") ^ ";
-                cur = now;
+                res.append(ValueName).append("(?").append(now).append(") ^ ");
             }
             else {
-                res +=  KeyName + "(?" + cur + ", ?" + now + ") ^ ";
+                res.append(KeyName).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
                 if(index != pathList.size() - 1) {
-                    res += ValueName + "(?" + now + ") ^ ";
+                    res.append(ValueName).append("(?").append(now).append(") ^ ");
                 }
                 else {
-                    res += ValueName + "(?" + now + ")";
+                    res.append(ValueName).append("(?").append(now).append(")");
                 }
-                cur = now;
             }
+            cur = now;
             index++;
         }
-        return res;
+        return res.toString();
     }
 
 
@@ -312,9 +311,9 @@ public class CoreOWLUtil {
                     }
                 }
                 if (next_node != null) {
-                    if(next_node.getValue().equals(end)) {
+//                    if(next_node.getValue().equals(end)) {
 //                        System.out.println("ok");
-                    }
+//                    }
                     stack.add(next_node);
                     //states.get(next_node.getValue()) + 1
                     states.put(next_node.getValue(), 1);

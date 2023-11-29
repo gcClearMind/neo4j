@@ -26,9 +26,9 @@ import static tool.CoreOWLUtil.*;
 
 public class test3 {
     public static void main(String[] args) throws IOException {
-        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
-        Properties properties = new Properties();
-        properties.load(inputStream);
+//        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
+//        Properties properties = new Properties();
+//        properties.load(inputStream);
 
         //rdf文件
         Model model = ModelFactory.createDefaultModel();
