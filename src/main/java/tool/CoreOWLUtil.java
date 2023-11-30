@@ -115,9 +115,11 @@ public class CoreOWLUtil {
         for(Pair<OntProperty, OntClass> o : pathList) {
             String KeyName = null, ValueName = null;
             if(o.getKey() != null) {
-                KeyName = getRealName(o.getKey().getURI());
+//                KeyName = getRealName(o.getKey().getURI());
+                KeyName = o.getKey().getURI();
             }
-            ValueName = getRealName(o.getValue().getURI());
+//            ValueName = getRealName(o.getValue().getURI());
+            ValueName = o.getValue().getURI();
             now = String.valueOf((char)('a' + index));
             if(KeyName == null) {
                 res.append(ValueName).append("(?").append(now).append(") ^ ");
@@ -396,28 +398,33 @@ public class CoreOWLUtil {
                 tmpClass = tmpClass.getSuperClass();
                 dirt.put(tmpClass, 1);
             }
+            OntClass umlClass = getClass(ontModel, umlName);
             for(Object o : list) {
                 String ClassName = o.toString();
                 OntClass sonClass = getClass(ontModel, ClassName);
                 if(dirt.containsKey(sonClass)) {
                     continue;
                 }
-                OntClass umlClass = getClass(ontModel, umlName);
+                if(sonClass.getURI().equals(deepClassName)) { //最深节点
+                    res_lists.add(sonClass);
+                    continue;
+                }
                 tmpClass = getClass(ontModel, ClassName);
                 while(tmpClass.hasSuperClass()) {//存在上级则得到最上级
                     dirt.put(tmpClass, 1);
                     tmpClass = tmpClass.getSuperClass();
                 }
-                if(tmpClass.getURI().equals(umlClass.getURI())) { //如果上级一致 但和最长链不属于同一分支 不处理
+                if(tmpClass.equals(umlClass)) { //如果上级一致 但和最长链不属于同一分支 不处理
                     res_lists.add(sonClass);
                     continue;
                 }
-                else if(tmpClass.getURI().equals(sonClass.getURI())){ //上级不一致，但无上级
+                else if(tmpClass.equals(sonClass)){ //上级不一致，但无上级
                     res_lists.add(sonClass);
                     addSubClass(umlClass, sonClass);
                 }
                 else { //上级不一致且存在上级
-                    res_lists.add(sonClass);
+//                    res_lists.add(sonClass);
+                    continue;
                 }
             }
         }
