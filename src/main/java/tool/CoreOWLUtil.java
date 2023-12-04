@@ -267,15 +267,15 @@ public class CoreOWLUtil {
             if(top_node.getValue().equals(end) && stack.size() > 1) {
                 if(stack.size() == 2 && start.equals(end)) { // 自环
                     cur_node = stack.removeLast();
-                    states.put(cur_node.getValue(), 0);
-                    continue;
-                }
-                //形成路径
-                Path path = genPath(stack);
-                if(paths.contains(path)) {
-                    System.out.println("--------------------------");
+                states.put(cur_node.getValue(), 0);
+                continue;
+            }
+            //形成路径
+            Path path = genPath(stack);
+            if(paths.contains(path)) {
+                System.out.println("--------------------------");
 
-                }
+            }
                 paths.add(path);
                 System.out.println("res        " + (++i));
                 cur_node = stack.removeLast();
