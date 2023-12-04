@@ -115,11 +115,11 @@ public class CoreOWLUtil {
         for(Pair<OntProperty, OntClass> o : pathList) {
             String KeyName = null, ValueName = null;
             if(o.getKey() != null) {
-//                KeyName = getRealName(o.getKey().getURI());
-                KeyName = o.getKey().getURI();
+                KeyName = getRealName(o.getKey().getURI());
+//                KeyName = o.getKey().getURI();
             }
-//            ValueName = getRealName(o.getValue().getURI());
-            ValueName = o.getValue().getURI();
+            ValueName = getRealName(o.getValue().getURI());
+//            ValueName = o.getValue().getURI();
             now = String.valueOf((char)('a' + index));
             if(KeyName == null) {
                 res.append(ValueName).append("(?").append(now).append(") ^ ");
@@ -224,9 +224,9 @@ public class CoreOWLUtil {
         // 遍历给定的堆栈
         for (Pair<OntProperty, OntClass> pair : stack) {
             OntProperty property = pair.getKey();
-            if (property != null) {
-                property = property.getSuperProperty();
-            }
+//            if (property != null) {
+//                property = property.getSuperProperty();
+//            }
             path.add(new Pair<>(property, pair.getValue()));
         }
 
