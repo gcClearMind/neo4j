@@ -7563,3 +7563,139 @@
 [DEBUG][23-12-04][org.apache.jena.util.FileManager]Add location: LocatorURL
 [DEBUG][23-12-04][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
 [DEBUG][23-12-04][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][23-12-07][Jena]Jena initialization
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]open(output.rdf)
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Not mapped: output.rdf
+[DEBUG][23-12-07][org.apache.jena.riot.system.stream.StreamManager]Found: output.rdf (LocatorFile)
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][23-12-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)

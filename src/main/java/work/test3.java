@@ -45,9 +45,11 @@ public class test3 {
 //            System.out.println(a.toString());
 //        }
         LinkedList<Path> paths =  getAllPath(ontModel, start, end, 3);
+        int index = 0;
         for(Path path : paths) {
+            System.out.print(index++ + ": ");
             System.out.println(showPath(path));
-            System.out.println(getSWRL(path));
+            System.out.println(getSWRL(path,"aa"));
             System.out.println("----------------------------------------------------");
         }
 

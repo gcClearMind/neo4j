@@ -1,6 +1,5 @@
 package tool;
 
-import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
 
@@ -96,6 +95,7 @@ public class CoreOWLUtil {
         for(Pair<OntProperty, OntClass> o : pathList) {
             String KeyName = null, ValueName = null;
             if (o.getKey() != null) {
+//                KeyName = getRealName(o.getKey().getSuperProperty().getURI());
                 KeyName = getRealName(o.getKey().getURI());
             }
             ValueName = getRealName(o.getValue().getURI());
@@ -106,37 +106,50 @@ public class CoreOWLUtil {
 
 
 
-    public static String getSWRL(Path path) {
+    public static String getSWRL(Path path, String result) {
         int index = 0;
         StringBuilder res = new StringBuilder();
+        StringBuilder res_SWRL = new StringBuilder();
         String cur = null;
         String now = null;
+        res_SWRL.append("[Rules: ");
         List<Pair<OntProperty, OntClass>> pathList = path.getPathList();
+        String start = null;
+        String end = null;
         for(Pair<OntProperty, OntClass> o : pathList) {
             String KeyName = null, ValueName = null;
+            now = String.valueOf((char)('a' + index));
             if(o.getKey() != null) {
+                start = now;
                 KeyName = getRealName(o.getKey().getURI());
 //                KeyName = o.getKey().getURI();
             }
             ValueName = getRealName(o.getValue().getURI());
 //            ValueName = o.getValue().getURI();
-            now = String.valueOf((char)('a' + index));
             if(KeyName == null) {
                 res.append(ValueName).append("(?").append(now).append(") ^ ");
+                res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append("), ");
             }
             else {
                 res.append(KeyName).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
+                res_SWRL.append("(?").append(cur).append(" ").append(getSourceName()).append(":").append(KeyName).append(" ?").append(now).append("), ");
                 if(index != pathList.size() - 1) {
                     res.append(ValueName).append("(?").append(now).append(") ^ ");
+                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append("), ");
                 }
                 else {
+                    end = now;
                     res.append(ValueName).append("(?").append(now).append(")");
+                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append(")");
                 }
             }
             cur = now;
             index++;
         }
-        return res.toString();
+        res.append(" -> ").append(result).append("(?").append(start).append(", ?").append(end).append(")");
+        res_SWRL.append(" -> ").append("(?").append(start).append(" ").append(getSourceName()).append(":").append(result).append(" ?").append(end).append(")");
+        res_SWRL.append("]");
+        return res_SWRL.toString();
     }
 
 
@@ -542,11 +555,10 @@ public class CoreOWLUtil {
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, ontClass 需要被添加的类别, propertyName 属性名称]
      * @return: org.apache.jena.ontology.DatatypeProperty
      **/
-    public static DatatypeProperty addProperty(OntModel ontModel, OntClass ontClass, String propertyName) {
+    public static void addProperty(OntModel ontModel, String propertyName) {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        DatatypeProperty newProperty = ontModel.createDatatypeProperty(nameSpace + propertyName);
-        newProperty.addDomain(ontClass);
-        return newProperty;
+        OntProperty newProperty = ontModel.createOntProperty(nameSpace + propertyName);
+        return;
     }
 
     /*
