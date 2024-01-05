@@ -120,35 +120,38 @@ public class CoreOWLUtil {
             String KeyName = null, ValueName = null;
             now = String.valueOf((char)('a' + index));
             if(o.getKey() != null) {
-                start = now;
-                KeyName = getRealName(o.getKey().getURI());
-//                KeyName = o.getKey().getURI();
+//                KeyName = getRealName(o.getKey().getURI());
+                KeyName = o.getKey().getURI();
             }
-            ValueName = getRealName(o.getValue().getURI());
-//            ValueName = o.getValue().getURI();
+            else {
+                start = now;
+            }
+//            ValueName = getRealName(o.getValue().getURI());
+            ValueName = o.getValue().getURI();
             if(KeyName == null) {
                 res.append(ValueName).append("(?").append(now).append(") ^ ");
-                res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append("), ");
+                res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(ValueName).append("), ");
             }
             else {
                 res.append(KeyName).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
-                res_SWRL.append("(?").append(cur).append(" ").append(getSourceName()).append(":").append(KeyName).append(" ?").append(now).append("), ");
+                res_SWRL.append("(?").append(cur).append(" ").append(KeyName).append(" ?").append(now).append("), ");
                 if(index != pathList.size() - 1) {
                     res.append(ValueName).append("(?").append(now).append(") ^ ");
-                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append("), ");
+                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(ValueName).append("), ");
                 }
                 else {
                     end = now;
                     res.append(ValueName).append("(?").append(now).append(")");
-                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(getSourceName()).append(":").append(ValueName).append(")");
+                    res_SWRL.append("(").append("?").append(now).append(" rdf:type ").append(ValueName).append(")");
                 }
             }
             cur = now;
             index++;
         }
         res.append(" -> ").append(result).append("(?").append(start).append(", ?").append(end).append(")");
-        res_SWRL.append(" -> ").append("(?").append(start).append(" ").append(getSourceName()).append(":").append(result).append(" ?").append(end).append(")");
+        res_SWRL.append(" -> ").append("(?").append(start).append(" ").append(result).append(" ?").append(end).append(")");
         res_SWRL.append("]");
+        System.out.println(res);
         return res_SWRL.toString();
     }
 

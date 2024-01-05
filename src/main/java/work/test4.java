@@ -1,5 +1,6 @@
 package work;
 
+import org.apache.jena.assembler.RuleSet;
 import org.apache.jena.graph.Triple;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
@@ -12,6 +13,7 @@ import org.apache.jena.reasoner.Reasoner;
 import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
 import org.apache.jena.reasoner.rulesys.GenericRuleReasonerFactory;
 import org.apache.jena.reasoner.rulesys.Rule;
+import org.apache.jena.reasoner.rulesys.*;
 import org.apache.jena.vocabulary.ReasonerVocabulary;
 import tool.CoreOWLUtil;
 import tool.Path;
@@ -66,17 +68,42 @@ public class test4 {
         String relation = scanner.next();
         addProperty(ontModel, relation);
         String rule = getSWRL(path, relation);
-        GenericRuleReasoner reasoner = (GenericRuleReasoner) GenericRuleReasonerFactory.theInstance().create(null);
-        PrintUtil.registerPrefix("", CoreOWLUtil.getNameSpace());
+        System.out.println(rule);
 
-        reasoner.setRules(Rule.parseRules(rule));
-        reasoner.setMode(GenericRuleReasoner.HYBRID);
-        InfGraph infgraph = reasoner.bind(model.getGraph());
-        infgraph.setDerivationLogging(true);
-        Iterator<Triple> tripleIterator = infgraph.find(null, null, null);
-        while (tripleIterator.hasNext()) {
-            System.out.println(" - " + PrintUtil.print(tripleIterator.next()));
+//        Resource configuration =  ontModel.createResource();
+//        configuration.addProperty(ReasonerVocabulary.PROPruleMode, "hybrid");
+//        configuration.addProperty(ReasonerVocabulary.PROPruleSet,  rule);
+//        Reasoner reasoner = GenericRuleReasonerFactory.theInstance().create(configuration);
+
+        // Infere new knowledge on the input model, generating a new one
+//        InfModel infmodel = ModelFactory.createInfModel(reasoner, input);
+        GenericRuleReasoner reasoner = (GenericRuleReasoner)GenericRuleReasonerFactory.theInstance().create(null);
+        Rule rules = null;
+        try {
+            rules = Rule.parseRule(rule);
+        }catch (Rule.ParserException e) {
+            e.printStackTrace();
         }
+        RuleSet ruleSet = RuleSet.create(rule);
+        reasoner.setRules(ruleSet.getRules());
+        reasoner.setMode(GenericRuleReasoner.HYBRID);
+        //
+//        reasoner1.
+        InfGraph infgraph = reasoner.bind(model.getGraph());
+        Reasoner reasoner1 = reasoner.bindSchema(model);
+        reasoner1.setDerivationLogging(true);
+        model =  ModelFactory.createModelForGraph(infgraph.getRawGraph());
+//        GenericRuleReasoner reasoner = (GenericRuleReasoner) GenericRuleReasonerFactory.theInstance().create(null);
+//        PrintUtil.registerPrefix("", CoreOWLUtil.getNameSpace());
+//
+//        reasoner.setRules(Rule.parseRules(rule));
+//        reasoner.setMode(GenericRuleReasoner.HYBRID);
+//        InfGraph infgraph = reasoner.bind(model.getGraph());
+//        infgraph.setDerivationLogging(true);
+//        Iterator<Triple> tripleIterator = infgraph.find(null, null, null);
+//        while (tripleIterator.hasNext()) {
+//            System.out.println(" - " + PrintUtil.print(tripleIterator.next()));
+//        }
         OutputStream out = Files.newOutputStream(Paths.get("test4.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
