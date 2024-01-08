@@ -58,53 +58,53 @@ public class test4 {
 //            System.out.println(getSWRL(path));
             System.out.println("--------------------------------------------------------------------------------------------");
         }
-        System.out.print("选择序号： ");
-        Scanner scanner = new Scanner(System.in);
-        index = scanner.nextInt();
-
-        Path path = paths.get(index);
-
-        System.out.print("输入新的关系并创建： ");
-        String relation = scanner.next();
-        addProperty(ontModel, relation);
-        String rule = getSWRL(path, relation);
-        System.out.println(rule);
-
-//        Resource configuration =  ontModel.createResource();
-//        configuration.addProperty(ReasonerVocabulary.PROPruleMode, "hybrid");
-//        configuration.addProperty(ReasonerVocabulary.PROPruleSet,  rule);
-//        Reasoner reasoner = GenericRuleReasonerFactory.theInstance().create(configuration);
-
-        // Infere new knowledge on the input model, generating a new one
-//        InfModel infmodel = ModelFactory.createInfModel(reasoner, input);
-        GenericRuleReasoner reasoner = (GenericRuleReasoner)GenericRuleReasonerFactory.theInstance().create(null);
-        Rule rules = null;
-        try {
-            rules = Rule.parseRule(rule);
-        }catch (Rule.ParserException e) {
-            e.printStackTrace();
-        }
-        RuleSet ruleSet = RuleSet.create(rule);
-        reasoner.setRules(ruleSet.getRules());
-        reasoner.setMode(GenericRuleReasoner.HYBRID);
-        //
-//        reasoner1.
-        InfGraph infgraph = reasoner.bind(model.getGraph());
-        Reasoner reasoner1 = reasoner.bindSchema(model);
-        reasoner1.setDerivationLogging(true);
-        model =  ModelFactory.createModelForGraph(infgraph.getRawGraph());
-//        GenericRuleReasoner reasoner = (GenericRuleReasoner) GenericRuleReasonerFactory.theInstance().create(null);
-//        PrintUtil.registerPrefix("", CoreOWLUtil.getNameSpace());
+//        System.out.print("选择序号： ");
+//        Scanner scanner = new Scanner(System.in);
+//        index = scanner.nextInt();
 //
-//        reasoner.setRules(Rule.parseRules(rule));
-//        reasoner.setMode(GenericRuleReasoner.HYBRID);
-//        InfGraph infgraph = reasoner.bind(model.getGraph());
-//        infgraph.setDerivationLogging(true);
-//        Iterator<Triple> tripleIterator = infgraph.find(null, null, null);
-//        while (tripleIterator.hasNext()) {
-//            System.out.println(" - " + PrintUtil.print(tripleIterator.next()));
+//        Path path = paths.get(index);
+//
+//        System.out.print("输入新的关系并创建： ");
+//        String relation = scanner.next();
+//        addProperty(ontModel, relation);
+//        String rule = getSWRL(path, relation);
+//        System.out.println(rule);
+//
+////        Resource configuration =  ontModel.createResource();
+////        configuration.addProperty(ReasonerVocabulary.PROPruleMode, "hybrid");
+////        configuration.addProperty(ReasonerVocabulary.PROPruleSet,  rule);
+////        Reasoner reasoner = GenericRuleReasonerFactory.theInstance().create(configuration);
+//
+//        // Infere new knowledge on the input model, generating a new one
+////        InfModel infmodel = ModelFactory.createInfModel(reasoner, input);
+//        GenericRuleReasoner reasoner = (GenericRuleReasoner)GenericRuleReasonerFactory.theInstance().create(null);
+//        Rule rules = null;
+//        try {
+//            rules = Rule.parseRule(rule);
+//        }catch (Rule.ParserException e) {
+//            e.printStackTrace();
 //        }
-        OutputStream out = Files.newOutputStream(Paths.get("test4.rdf"));
-        model.write(out,"RDF/XML-ABBREV");
+//        RuleSet ruleSet = RuleSet.create(rule);
+//        reasoner.setRules(ruleSet.getRules());
+//        reasoner.setMode(GenericRuleReasoner.HYBRID);
+//        //
+////        reasoner1.
+//        InfGraph infgraph = reasoner.bind(model.getGraph());
+//        Reasoner reasoner1 = reasoner.bindSchema(model);
+//        reasoner1.setDerivationLogging(true);
+//        model =  ModelFactory.createModelForGraph(infgraph.getRawGraph());
+////        GenericRuleReasoner reasoner = (GenericRuleReasoner) GenericRuleReasonerFactory.theInstance().create(null);
+////        PrintUtil.registerPrefix("", CoreOWLUtil.getNameSpace());
+////
+////        reasoner.setRules(Rule.parseRules(rule));
+////        reasoner.setMode(GenericRuleReasoner.HYBRID);
+////        InfGraph infgraph = reasoner.bind(model.getGraph());
+////        infgraph.setDerivationLogging(true);
+////        Iterator<Triple> tripleIterator = infgraph.find(null, null, null);
+////        while (tripleIterator.hasNext()) {
+////            System.out.println(" - " + PrintUtil.print(tripleIterator.next()));
+////        }
+//        OutputStream out = Files.newOutputStream(Paths.get("test4.rdf"));
+//        model.write(out,"RDF/XML-ABBREV");
     }
 }
