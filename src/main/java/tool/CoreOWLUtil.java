@@ -113,6 +113,7 @@ public class CoreOWLUtil {
         String cur = null;
         String now = null;
         res_SWRL.append("[Rules: ");
+        result = getNameSpace() + result;
         List<Pair<OntProperty, OntClass>> pathList = path.getPathList();
         String start = null;
         String end = null;
