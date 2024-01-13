@@ -8130,3 +8130,665 @@
 [DEBUG][24-01-07][org.apache.jena.util.FileManager]Add location: LocatorURL
 [DEBUG][24-01-07][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
 [DEBUG][24-01-07][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type xsd:integer) -> (?a rdf:type xsd:decimal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:intersectionOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Class) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:disjointWith ?X) -> (?X owl:disjointWith ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:differentFrom ?X) -> (?X owl:differentFrom ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Ontology) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:OntologyProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) notFunctor(?y) -> (?y rdf:type owl:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Property) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) -> (?x rdf:type owl:Restriction) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Restriction) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:sameAs ?X) -> (?X owl:sameAs ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) notFunctor(?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) notFunctor(?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Nothing) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Nothing) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (0e56c83c-4151-4103-9917-c35bc5bfbdb9 rdf:type ?d) -> (owl:Thing rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Thing) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Restriction) -> (?a rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Class) -> (?a rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:oneOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:SymmetricProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:TransitiveProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:InverseFunctionalProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:DatatypeProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:ObjectProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:FunctionalProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Datatype) -> (?a rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:ContainerMembershipProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Seq) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Bag) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Alt) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) notFunctor(?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:List) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Class) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) notFunctor(?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Property) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Statement) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Literal) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (e24159da-7d7a-41bc-9ebe-94070a3b1e5b rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#c> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (cc51fd14-5648-4d9d-994f-0f88ca8fb071 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#d> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#e>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#e>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (a772d1ef-7d46-4c9e-9eee-cb3c24f7ba17 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#e> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (52fbcf24-e9d2-4277-9ef3-e60ae8fe64fa rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#a> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (afaf7f6e-f99e-4f41-89fd-0b3857a04cf4 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#b> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:intersectionOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:disjointWith ?X) -> (?X owl:disjointWith ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:differentFrom ?X) -> (?X owl:differentFrom ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) -> (?y rdf:type owl:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) -> (?x rdf:type owl:Restriction) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:sameAs ?X) -> (?X owl:sameAs ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:oneOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:label ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:comment ?y) -> (?y rdf:type rdfs:Literal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type xsd:integer) -> (?a rdf:type xsd:decimal) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:intersectionOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Class) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:disjointWith ?X) -> (?X owl:disjointWith ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:differentFrom ?X) -> (?X owl:differentFrom ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Ontology) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:incompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:backwardCompatibleWith ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:priorVersion ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) notFunctor(?y) -> (?y rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:imports ?y) -> (?x rdf:type owl:Ontology) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:OntologyProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) notFunctor(?y) -> (?y rdf:type owl:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Property) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:onProperty ?y) -> (?x rdf:type owl:Restriction) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Restriction) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ symmetricProperty1b: (?Y owl:sameAs ?X) -> (?X owl:sameAs ?Y) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) notFunctor(?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:disjointWith ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) notFunctor(?y) -> (?y rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:equivalentClass ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Nothing) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Nothing) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (e984942d-d0b9-4450-bc5a-a982f8f962e8 rdf:type ?d) -> (owl:Thing rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Thing) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Restriction) -> (?a rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:Class) -> (?a rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x owl:oneOf ?y) -> (?x rdf:type owl:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:SymmetricProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:TransitiveProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:InverseFunctionalProperty) -> (?a rdf:type owl:ObjectProperty) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:DatatypeProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:ObjectProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type owl:FunctionalProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Datatype) -> (?a rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdfs:isDefinedBy ?b) -> (?a rdfs:seeAlso ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:ContainerMembershipProperty) -> (?a rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Seq) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Bag) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Alt) -> (?a rdf:type rdfs:Container) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) notFunctor(?y) -> (?y rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:List) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Class) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) notFunctor(?y) -> (?y rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Property) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:rest ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:first ?y) -> (?x rdf:type rdf:List) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:object ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:predicate ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:subject ?y) -> (?x rdf:type rdf:Statement) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:range ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:domain ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subClassOf ?y) -> (?x rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdfs:subPropertyOf ?y) -> (?x rdf:type rdf:Property) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdf:Statement) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type rdfs:Literal) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x rdf:type ?y) notFunctor(?y) -> (?y rdf:type rdfs:Class) ]
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (4ed4a98c-7a77-4be0-be1b-398109f0bec4 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#c> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r1> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r1> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (612ac503-4b6d-4b10-a659-c241bf08c05d rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#d> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r2> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r2> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#c>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#e>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (1bd58bef-ada3-4837-ae0c-466bd6631954 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#e> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#e>) -> (?a rdf:type rdfs:Resource) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r3> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r3> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r4> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) -> (?x rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r4> ?y) notFunctor(?y) -> (?y rdf:type <http://www.neo4j.com/ontologies/data.owl#d>) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#a>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (03db144b-80fe-46bd-ab43-b3d9137fcd55 rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#a> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) notFunctor(?y) -> (?y rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?x <http://www.neo4j.com/ontologies/data.owl#r5> ?y) -> (?x rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a <http://www.neo4j.com/ontologies/data.owl#r5> ?b) -> (?a owl:topObjectProperty ?b) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ (?a rdf:type <http://www.neo4j.com/ontologies/data.owl#b>) -> (?a rdf:type owl:Thing) ]
+[DEBUG][24-01-13][org.apache.jena.reasoner.rulesys.FBRuleInfGraph]Adding rule [ prototype2b: (5c2eae6e-9ddc-4148-ad43-91eef0b63def rdf:type ?d) -> (<http://www.neo4j.com/ontologies/data.owl#b> rdfs:subClassOf ?d) ]
+[DEBUG][24-01-13][Jena]Jena initialization
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.LocationMapper]Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.JenaIOEnvironment]Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.info]System architecture: 64 bit
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorFile
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: LocatorURL
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Add location: ClassLoaderLocator
+[DEBUG][24-01-13][org.apache.jena.util.FileManager]Found: ont-policy.rdf (ClassLoaderLocator)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]open(test5.rdf)
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Not mapped: test5.rdf
+[DEBUG][24-01-13][org.apache.jena.riot.system.stream.StreamManager]Found: test5.rdf (LocatorFile)
