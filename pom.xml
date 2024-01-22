@@ -52,6 +52,22 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.owlapi/owlapi-parent -->
+        <dependency>
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>owlapi-parent</artifactId>
+            <version>5.1.0</version>
+            <type>pom</type>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.owlapi/org.semanticweb.hermit -->
+        <dependency>
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>org.semanticweb.hermit</artifactId>
+            <version>1.4.5.519</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.hp.hpl.jena/jena -->
 <!--        <dependency>-->
 <!--            <groupId>com.hp.hpl.jena</groupId>-->
