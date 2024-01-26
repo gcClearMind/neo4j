@@ -1,42 +1,35 @@
 package work;
 
 import org.apache.jena.assembler.RuleSet;
-import org.apache.jena.graph.Triple;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.ontology.ProfileRegistry;
-import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.StmtIterator;
-import org.apache.jena.reasoner.InfGraph;
-import org.apache.jena.reasoner.Reasoner;
-import org.apache.jena.reasoner.ReasonerRegistry;
-import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
-import org.apache.jena.reasoner.rulesys.GenericRuleReasonerFactory;
-import org.apache.jena.reasoner.rulesys.RDFSRuleReasonerFactory;
-import org.apache.jena.util.PrintUtil;
 import org.semanticweb.HermiT.ReasonerFactory;
 import org.semanticweb.owlapi.apibinding.OWLManager;
+import org.semanticweb.owlapi.formats.OWLXMLDocumentFormat;
+import org.semanticweb.owlapi.formats.RDFXMLDocumentFormat;
 import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.reasoner.InferenceType;
 import org.semanticweb.owlapi.reasoner.OWLReasoner;
 import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
-import tool.CoreOWLUtil;
+import org.swrlapi.core.SWRLAPIRule;
+import org.swrlapi.core.SWRLRuleEngine;
+import org.swrlapi.exceptions.SWRLBuiltInException;
+import org.swrlapi.factory.SWRLAPIFactory;
+import org.swrlapi.parser.SWRLParseException;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Iterator;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static tool.CoreOWLUtil.SetSourceName;
 import static tool.CoreOWLUtil.getOntModel;
 
 public class test5 {
-    public static void main(String[] args) throws IOException, OWLOntologyCreationException {
+    public static void main(String[] args) throws OWLOntologyCreationException, SWRLParseException, SWRLBuiltInException, FileNotFoundException, OWLOntologyStorageException {
 //        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
 //        Properties properties = new Properties();
 //        properties.load(inputStream);
@@ -46,36 +39,49 @@ public class test5 {
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
         String inputFileName = Paths.get("test5.rdf").toString();
+        String outputFileName = Paths.get("test6.rdf").toString();
         Model model = ModelFactory.createOntologyModel();
         OntModel ontModel = getOntModel(model, inputFileName);
 
-        String ruleString1 = "a(?a), b(?b), r1(?a, ?b), d(?d), r4(?b, ?d) -> r5(?a, ?d)";
+        String base = "http://www.neo4j.com/ontologies/data.owl";
+        String ruleString1 = "a(?x)^b(?y)^r1(?x, ?y)^d(?z)^r4(?y, ?z) -> r5(?x, ?z)";
         String ruleString2 = "[Rules: (?a rdf:type http://www.neo4j.com/ontologies/data.owl#a), (?a http://www.neo4j.com/ontologies/data.owl#r1 ?b), (?b rdf:type http://www.neo4j.com/ontologies/data.owl#b), (?b http://www.neo4j.com/ontologies/data.owl#r4 ?d), (?d rdf:type http://www.neo4j.com/ontologies/data.owl#d) -> (?a http://www.neo4j.com/ontologies/data.owl#r5 ?d)]";
+        String ruleString3 = "http://www.neo4j.com/ontologies/data.owl#a(?a), http://www.neo4j.com/ontologies/data.owl#b(?b), http://www.neo4j.com/ontologies/data.owl#r1(?a, ?b), http://www.neo4j.com/ontologies/data.owl#d(?d), http://www.neo4j.com/ontologies/data.owl#r4(?b, ?d) -> http://www.neo4j.com/ontologies/data.owl#r5(?a, ?d)";
+        String ruleString4 = "Body(" +
+                "ClassAtom(<http://www.neo4j.com/ontologies/data.owl#a> Variable(?a)) " +
+                "ClassAtom(<http://www.neo4j.com/ontologies/data.owl#b> Variable(?b)) " +
+                "ClassAtom(<http://www.neo4j.com/ontologies/data.owl#d> Variable(?d)) " +
+                "ObjectPropertyAtom(<http://www.neo4j.com/ontologies/data.owl#r1> Variable(?a) Variable(?b)) " +
+                "ObjectPropertyAtom(<http://www.neo4j.com/ontologies/data.owl#r4> Variable(?b) Variable(?d))" +
+                ") " +
+                "Head(" +
+                "ObjectPropertyAtom(<http://www.neo4j.com/ontologies/data.owl#r5> Variable(?a) Variable(?d))" +
+                ")";
+        String ruleString5=
+                "ClassAtom(<a> Variable(?a))^" +
+                "ClassAtom(<b> Variable(?b))^" +
+                "ClassAtom(<d> Variable(?d))^" +
+                "ObjectPropertyAtom(<r1> Variable(?a) Variable(?b))^" +
+                "ObjectPropertyAtom(<r4> Variable(?b) Variable(?d))" +
+                ")" +
+                "->" +
+                "ObjectPropertyAtom(<r5> Variable(?a) Variable(?d))";
+        String ruleString6 = "a(?a) -> http://www.neo4j.com/ontologies/data.owl#r5(?a, ?a)";
+
         RuleSet ruleSet = RuleSet.create(ruleString2);
-//        GenericRuleReasoner reasoner = (GenericRuleReasoner) GenericRuleReasonerFactory.theInstance().create(null);
-//        reasoner.setRules(ruleSet.getRules());
-//        reasoner.setMode(GenericRuleReasoner.HYBRID);
-////        InfGraph infgraph = reasoner.bind(ontModel.getGraph());
-//        InfModel infgraph = ModelFactory.createInfModel(reasoner, model);
-//
-//        model = infgraph.getRawModel();
-//
-//        OutputStream out = Files.newOutputStream(Paths.get("test6.rdf"));
-//        model.write(out,"RDF/XML-ABBREV");
+        OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
+        File file = new File(inputFileName);
 
-        OWLOntologyManager ontologyManager = OWLManager.createOWLOntologyManager();
-        OWLOntology ontology = ontologyManager.loadOntologyFromOntologyDocument((IRI) ontModel.getBaseModel().getGraph());
-        OWLReasonerFactory owlReasonerFactory = new ReasonerFactory();
-        OWLReasoner owlReasoner = owlReasonerFactory.createReasoner(ontology);
+        OWLOntology ontology = manager.loadOntologyFromOntologyDocument(file);
+        manager.getOntologyFormat(ontology).asPrefixOWLOntologyFormat().setDefaultPrefix(base + "#");
+        SWRLRuleEngine ruleEngine = SWRLAPIFactory.createSWRLRuleEngine(ontology);
 
+        SWRLAPIRule rule =  ruleEngine.createSWRLRule("rule15", ruleString1);
+        ruleEngine.infer();
 
+// 保存修改后的OWL本体
+        manager.saveOntology(ontology, new RDFXMLDocumentFormat(), new FileOutputStream(outputFileName));
 
-
-
-        owlReasoner.precomputeInferences(InferenceType.CLASS_HIERARCHY);
-
-
-//        List<OWLClass> owlClasses = ontology.classesInSignature().collect(Collectors.toList());
 ;
     }
 }
