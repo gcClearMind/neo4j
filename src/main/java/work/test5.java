@@ -38,8 +38,8 @@ public class test5 {
 
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("test5.rdf").toString();
-        String outputFileName = Paths.get("test6.rdf").toString();
+        String inputFileName = Paths.get("data/test5.rdf").toString();
+        String outputFileName = Paths.get("data/test6.rdf").toString();
         Model model = ModelFactory.createOntologyModel();
         OntModel ontModel = getOntModel(model, inputFileName);
 

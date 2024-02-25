@@ -40,7 +40,7 @@ public class Initialization {
             addSubClass(father, son);
         }
         model.write(System.out, "N-TRIPLES");
-        OutputStream out = Files.newOutputStream(Paths.get("Initialization.rdf"));
+        OutputStream out = Files.newOutputStream(Paths.get("data/Initialization.rdf"));
         model.write(out,"RDF/XML-ABBREV");
         // 先写入一些粗略的 uml 与sysml的对应， 在每次录入过程中， 通过同类项的推理， 将标签归类到相应的class子类下
 

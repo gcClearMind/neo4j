@@ -1,36 +1,19 @@
 package work;
 
-import org.apache.jena.assembler.RuleSet;
-import org.apache.jena.graph.Triple;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.reasoner.InfGraph;
-import org.apache.jena.reasoner.Reasoner;
-import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
-import org.apache.jena.reasoner.rulesys.GenericRuleReasonerFactory;
-import org.apache.jena.reasoner.rulesys.Rule;
-import org.apache.jena.reasoner.rulesys.*;
-import org.apache.jena.vocabulary.ReasonerVocabulary;
 import tool.CoreOWLUtil;
 import tool.Path;
 
-import org.apache.jena.util.PrintUtil;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Properties;
-import java.util.Scanner;
 
 import static tool.CoreOWLUtil.*;
 
-public class test4 {
+public class test_find_roads {
     public static void main(String[] args) throws IOException {
 //        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
 //        Properties properties = new Properties();
@@ -40,7 +23,7 @@ public class test4 {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("data/output.rdf").toString();
+        String inputFileName = Paths.get("output.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
 
@@ -55,21 +38,10 @@ public class test4 {
         for(Path path : paths) {
             System.out.print(index++ + ": ");
             System.out.println(showPath(path));
-//            System.out.println(getSWRL(path));
-            System.out.println("--------------------------------------------------------------------------------------------");
+            System.out.println(getSWRL(path,"aa"));
+            System.out.println("----------------------------------------------------");
         }
-//        System.out.print("选择序号： ");
-//        Scanner scanner = new Scanner(System.in);
-//        index = scanner.nextInt();
-//
-//        Path path = paths.get(index);
-//
-//        System.out.print("输入新的关系并创建： ");
-//        String relation = scanner.next();
-//        addProperty(ontModel, relation);
-//        String rule = getSWRL(path, relation);
-//        System.out.println(rule);
-//
 
+        System.out.println(paths.size());
     }
 }

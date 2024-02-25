@@ -1,6 +1,5 @@
 package work;
 
-import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Model;
@@ -20,7 +19,7 @@ import static tool.CoreOWLUtil.*;
 
 
 
-public class test2 {
+public class test_addOntologyAndRelation {
     public static void main(String[] args) throws IOException {
 
 
@@ -37,7 +36,8 @@ public class test2 {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("Initialization.rdf").toString();
+        String inputFileName = Paths.get("data/Initialization.rdf").toString();
+        System.out.println(inputFileName);
         OntModel ontModel = getOntModel(model, inputFileName);
 
         // 执行一些数据库操作
@@ -98,7 +98,7 @@ public class test2 {
         printClasses(ontModel);
         printProperties(ontModel);
 //        model.write(System.out, "N-TRIPLES");
-        OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
+        OutputStream out = Files.newOutputStream(Paths.get("data/output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
 

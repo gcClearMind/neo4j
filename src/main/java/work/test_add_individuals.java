@@ -5,6 +5,7 @@ import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.vocabulary.RDFS;
 import org.neo4j.driver.*;
 import org.neo4j.driver.Record;
 
@@ -35,37 +36,32 @@ public class test_add_individuals {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("output.rdf").toString();
+        String inputFileName = Paths.get("data/output.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
         try (Session session = driver.session()) {
             Result result = session.run("MATCH(n) return n.name as first, labels(n) as second");
+            int id = 0;
             while (result.hasNext()) {
                 Record record = result.next();
                 String name = record.get("first").asString();
                 List<Object> second = record.get("second").asList();
-                if(name == null) {
-                    System.out.println("1");
-
-                }
-                if(name == "null") {
-                    System.out.println("----------------");
-                }
                 Individual individual = null;
+                Boolean start = false;
+                if(name == null || name.equals("null")) {
+                    name = "";
+                }
+
                 for(Object o : second) {
                     String label = o.toString();
                     OntClass ontClass = CoreOWLUtil.getClass(ontModel, label);
-                    if(individual != null) {
-                        individual.addOntClass(ontClass);
+                    if(!start) {
+                       individual = ontClass.createIndividual(getNameSpace() + (++id));
+                        individual.addProperty(RDFS.label, model.createLiteral(name, "name"));
+                        start = true;
                     }
                     else {
-//                        System.out.print("--");
-                        if(ontModel.getIndividual(getNameSpace()+name) == null){
-                            individual = ontModel.createIndividual(getNameSpace()+name, ontClass);
-                        }
-                        else {
-//                            System.out.println(ontModel.getIndividual(getNameSpace()+name));
-                        }
+                        individual.addOntClass(ontClass);
                     }
                 }
             }
@@ -74,7 +70,7 @@ public class test_add_individuals {
             e.printStackTrace();
 
         }
-        OutputStream out = Files.newOutputStream(Paths.get("output_individual.rdf"));
+        OutputStream out = Files.newOutputStream(Paths.get("data/output_individual.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
 }

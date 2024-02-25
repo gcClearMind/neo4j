@@ -1,0 +1,214 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:data="http://www.neo4j.com/ontologies/data.owl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.neo4j.com/ontologies/data.owl"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#e"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#a">
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#b"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#c"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#d"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r1">
+    <rdfs:range rdf:resource="http://www.neo4j.com/ontologies/data.owl#b"/>
+    <rdfs:domain rdf:resource="http://www.neo4j.com/ontologies/data.owl#a"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r2">
+    <rdfs:range rdf:resource="http://www.neo4j.com/ontologies/data.owl#c"/>
+    <rdfs:domain rdf:resource="http://www.neo4j.com/ontologies/data.owl#b"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r3">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r4">
+    <rdfs:range rdf:resource="http://www.neo4j.com/ontologies/data.owl#d"/>
+    <rdfs:domain rdf:resource="http://www.neo4j.com/ontologies/data.owl#b"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r5">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <data:a rdf:about="http://www.neo4j.com/ontologies/data.owl#dsa">
+    <data:r5>
+      <data:d rdf:about="http://www.neo4j.com/ontologies/data.owl#ddd">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </data:d>
+    </data:r5>
+    <data:r3>
+      <data:c rdf:about="http://www.neo4j.com/ontologies/data.owl#asdc">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </data:c>
+    </data:r3>
+    <data:r1>
+      <data:b rdf:about="http://www.neo4j.com/ontologies/data.owl#asd">
+        <data:r4 rdf:resource="http://www.neo4j.com/ontologies/data.owl#ddd"/>
+        <data:r2 rdf:resource="http://www.neo4j.com/ontologies/data.owl#asdc"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </data:b>
+    </data:r1>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </data:a>
+  <swrl:Imp>
+    <swrl:head>
+      <swrl:AtomList>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <swrl:IndividualPropertyAtom>
+            <swrl:argument2>
+              <swrl:Variable rdf:about="urn:swrl:var#c"/>
+            </swrl:argument2>
+            <swrl:argument1>
+              <swrl:Variable rdf:about="urn:swrl:var#a"/>
+            </swrl:argument1>
+            <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r3"/>
+          </swrl:IndividualPropertyAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:head>
+    <swrl:body>
+      <swrl:AtomList>
+        <rdf:rest>
+          <swrl:AtomList>
+            <rdf:rest>
+              <swrl:AtomList>
+                <rdf:rest>
+                  <swrl:AtomList>
+                    <rdf:rest>
+                      <swrl:AtomList>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                        <rdf:first>
+                          <swrl:IndividualPropertyAtom>
+                            <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                            <swrl:argument1>
+                              <swrl:Variable rdf:about="urn:swrl:var#b"/>
+                            </swrl:argument1>
+                            <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r2"/>
+                          </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                      </swrl:AtomList>
+                    </rdf:rest>
+                    <rdf:first>
+                      <swrl:ClassAtom>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#c"/>
+                      </swrl:ClassAtom>
+                    </rdf:first>
+                  </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                  <swrl:IndividualPropertyAtom>
+                    <swrl:argument2 rdf:resource="urn:swrl:var#b"/>
+                    <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                    <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r1"/>
+                  </swrl:IndividualPropertyAtom>
+                </rdf:first>
+              </swrl:AtomList>
+            </rdf:rest>
+            <rdf:first>
+              <swrl:ClassAtom>
+                <swrl:argument1 rdf:resource="urn:swrl:var#b"/>
+                <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#b"/>
+              </swrl:ClassAtom>
+            </rdf:first>
+          </swrl:AtomList>
+        </rdf:rest>
+        <rdf:first>
+          <swrl:ClassAtom>
+            <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+            <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#a"/>
+          </swrl:ClassAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:body>
+  </swrl:Imp>
+  <data:e rdf:about="http://www.neo4j.com/ontologies/data.owl#a_test">
+    <rdf:type rdf:resource="http://www.neo4j.com/ontologies/data.owl#a"/>
+  </data:e>
+  <swrl:Imp>
+    <swrl:head>
+      <swrl:AtomList>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <swrl:IndividualPropertyAtom>
+            <swrl:argument2>
+              <swrl:Variable rdf:about="http://www.neo4j.com/ontologies/data.owl#z"/>
+            </swrl:argument2>
+            <swrl:argument1>
+              <swrl:Variable rdf:about="http://www.neo4j.com/ontologies/data.owl#x"/>
+            </swrl:argument1>
+            <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r5"/>
+          </swrl:IndividualPropertyAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:head>
+    <swrl:body>
+      <swrl:AtomList>
+        <rdf:rest>
+          <swrl:AtomList>
+            <rdf:rest>
+              <swrl:AtomList>
+                <rdf:rest>
+                  <swrl:AtomList>
+                    <rdf:rest>
+                      <swrl:AtomList>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                        <rdf:first>
+                          <swrl:IndividualPropertyAtom>
+                            <swrl:argument2 rdf:resource="http://www.neo4j.com/ontologies/data.owl#z"/>
+                            <swrl:argument1>
+                              <swrl:Variable rdf:about="http://www.neo4j.com/ontologies/data.owl#y"/>
+                            </swrl:argument1>
+                            <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r4"/>
+                          </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                      </swrl:AtomList>
+                    </rdf:rest>
+                    <rdf:first>
+                      <swrl:ClassAtom>
+                        <swrl:argument1 rdf:resource="http://www.neo4j.com/ontologies/data.owl#z"/>
+                        <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#d"/>
+                      </swrl:ClassAtom>
+                    </rdf:first>
+                  </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                  <swrl:IndividualPropertyAtom>
+                    <swrl:argument2 rdf:resource="http://www.neo4j.com/ontologies/data.owl#y"/>
+                    <swrl:argument1 rdf:resource="http://www.neo4j.com/ontologies/data.owl#x"/>
+                    <swrl:propertyPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#r1"/>
+                  </swrl:IndividualPropertyAtom>
+                </rdf:first>
+              </swrl:AtomList>
+            </rdf:rest>
+            <rdf:first>
+              <swrl:ClassAtom>
+                <swrl:argument1 rdf:resource="http://www.neo4j.com/ontologies/data.owl#y"/>
+                <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#b"/>
+              </swrl:ClassAtom>
+            </rdf:first>
+          </swrl:AtomList>
+        </rdf:rest>
+        <rdf:first>
+          <swrl:ClassAtom>
+            <swrl:argument1 rdf:resource="http://www.neo4j.com/ontologies/data.owl#x"/>
+            <swrl:classPredicate rdf:resource="http://www.neo4j.com/ontologies/data.owl#a"/>
+          </swrl:ClassAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:body>
+    <rdfs:label>rule15</rdfs:label>
+    <rdfs:comment></rdfs:comment>
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</swrla:isRuleEnabled>
+  </swrl:Imp>
+  <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+</rdf:RDF>

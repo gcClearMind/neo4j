@@ -35,7 +35,7 @@
     <rdfs:range rdf:resource="http://www.neo4j.com/ontologies/data.owl#d"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#r5">
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/20 02/07/owl#topObjectProperty"/>
   </owl:ObjectProperty>
   <swrl:Imp>
     <swrl:body>

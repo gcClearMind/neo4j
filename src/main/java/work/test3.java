@@ -34,7 +34,7 @@ public class test3 {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("output.rdf").toString();
+        String inputFileName = Paths.get("data/output.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
 

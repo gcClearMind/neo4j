@@ -98,7 +98,7 @@ public class test {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("1.rdf").toString();
+        String inputFileName = Paths.get("data/1.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
 
@@ -113,7 +113,7 @@ public class test {
         printClasses(ontModel);
 
         model.write(System.out, "N-TRIPLES");
-        OutputStream out = Files.newOutputStream(Paths.get("output.rdf"));
+        OutputStream out = Files.newOutputStream(Paths.get("data/output.rdf"));
         model.write(out,"RDF/XML-ABBREV");
     }
 
