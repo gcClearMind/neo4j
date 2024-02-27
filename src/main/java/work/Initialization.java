@@ -31,7 +31,7 @@ public class Initialization {
         subClasses.forEach(System.out::println);
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
-        String inputFileName = Paths.get("1.rdf").toString();
+        String inputFileName = Paths.get("data/1.rdf").toString();
         OntModel ontModel = getOntModel(model,inputFileName);
         for(String rel : subClasses) {
             List<String> o = Arrays.asList(rel.split(" "));

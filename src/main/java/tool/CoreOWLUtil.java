@@ -464,8 +464,6 @@ public class CoreOWLUtil {
 
     /*
      * @Description: 向传入的头类和尾类之间添加关系，关系名称由参数传递
-     * @Author: zt
-     * @Date: 2023/2/28 17:11
      * @param: [ontModel 读取OWL文件生成的OntModel类对象, sourceClass 头类, targetClass 尾类, relationName 关系名称]
      * @return: org.apache.jena.ontology.ObjectProperty
      **/
