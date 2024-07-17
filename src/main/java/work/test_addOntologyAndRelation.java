@@ -73,7 +73,6 @@ public class test_addOntologyAndRelation {
                         if(second_label.contains("uml") && second.size() != 1) {
                             continue;
                         }
-
                         ad.set(0,first_label);
                         ad.set(1,rel);
                         ad.set(2,second_label);

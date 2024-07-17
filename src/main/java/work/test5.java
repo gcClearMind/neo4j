@@ -38,8 +38,8 @@ public class test5 {
 
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("data/test5.rdf").toString();
-        String outputFileName = Paths.get("data/test6.rdf").toString();
+        String inputFileName = Paths.get("data/output_individual.rdf").toString();
+        String outputFileName = Paths.get("data/output_individual_infer.rdf").toString();
         Model model = ModelFactory.createOntologyModel();
         OntModel ontModel = getOntModel(model, inputFileName);
 
@@ -66,9 +66,9 @@ public class test5 {
                 ")" +
                 "->" +
                 "ObjectPropertyAtom(<r5> Variable(?a) Variable(?d))";
-        String ruleString6 = "a(?a) -> http://www.neo4j.com/ontologies/data.owl#r5(?a, ?a)";
+        String ruleString6 = "Blocks:Block(?a)^additional_stereotypes:PartProperty(?b)^Allocations:Allocated(?c)^Ports_Flows:FlowPort(?d)^Blocks:Block(?e)^ownedAttribute-0(?a,?b)^type-0(?b,?c)^ownedAttribute-0(?c,?d)^type-0(?d,?e)-> hasInternalPort(?a,?e)";
 
-        RuleSet ruleSet = RuleSet.create(ruleString2);
+        RuleSet ruleSet = RuleSet.create(ruleString6);
         OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
         File file = new File(inputFileName);
 

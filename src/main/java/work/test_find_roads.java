@@ -23,7 +23,7 @@ public class test_find_roads {
         Model model = ModelFactory.createDefaultModel();
         SetSourceName("http://www.neo4j.com/ontologies/data.owl");
 
-        String inputFileName = Paths.get("output.rdf").toString();
+        String inputFileName = Paths.get("data/output.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
 
@@ -33,7 +33,7 @@ public class test_find_roads {
 //        for(Pair<OntProperty, OntClass> a : next_nodes) {
 //            System.out.println(a.toString());
 //        }
-        LinkedList<Path> paths =  getAllPath(ontModel, start, end, 3);
+        LinkedList<Path> paths =  getAllPath(ontModel, start, end, 4);
         int index = 0;
         for(Path path : paths) {
             System.out.print(index++ + ": ");

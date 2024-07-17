@@ -5,6 +5,7 @@ import org.apache.jena.rdf.model.*;
 
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
+import org.checkerframework.checker.oigj.qual.O;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -479,8 +480,9 @@ public class CoreOWLUtil {
         if(number == -1) {// 已存在
             return ;
         }
+        //todo 2024/7/16
         OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName + "-" + number);
-//        fatherRelation.addDomain(sourceClass);
+        fatherRelation.addDomain(sourceClass);
         newRelation.addDomain(sourceClass);
         newRelation.addRange(targetClass);
         fatherRelation.addSubProperty(newRelation);

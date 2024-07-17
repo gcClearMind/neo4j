@@ -41,6 +41,7 @@ public class test_add_individuals {
 
         try (Session session = driver.session()) {
             Result result = session.run("MATCH(n) return n.name as first, labels(n) as second");
+//            "match p = (n:`Blocks:Block`)-[*2..6]->(m:`Blocks:Block`) with nodes(p) as nodes unwind(nodes) as node return node.name as name , labels(node) as labels"
             int id = 0;
             while (result.hasNext()) {
                 Record record = result.next();
