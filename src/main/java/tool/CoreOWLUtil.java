@@ -470,20 +470,22 @@ public class CoreOWLUtil {
      **/
     public static void addRelation(OntModel ontModel, OntClass sourceClass, OntClass targetClass, String relationName)  {
         String nameSpace = CoreOWLUtil.getNameSpace();
-        OntProperty fatherRelation = ontModel.createOntProperty(nameSpace + relationName);
+        ObjectProperty fatherRelation = ontModel.createObjectProperty(nameSpace + relationName);
         // todo 加边？ 图怎么存？
 
         // todo 扩展到子类?
-        int number = getPropertyNumber(fatherRelation, sourceClass, targetClass);
-        if(number == -1) {// 已存在
-            return ;
-        }
+//        int number = getPropertyNumber(fatherRelation, sourceClass, targetClass);
+//        if(number == -1) {// 已存在
+//            return ;
+//        }
         //todo 2024/7/16
-        OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName + "-" + number);
-        fatherRelation.addDomain(sourceClass);
-        newRelation.addDomain(sourceClass);
-        newRelation.addRange(targetClass);
-        fatherRelation.addSubProperty(newRelation);
+//        OntProperty newRelation = ontModel.createOntProperty(nameSpace + relationName + "-" + number);
+//        fatherRelation.addDomain(sourceClass);
+//        newRelation.addDomain(sourceClass);
+//        newRelation.addRange(targetClass);
+//        fatherRelation.addSubProperty(newRelation);
+//        OntProperty top = ontModel.getObjectProperty("http://www.w3.org/2002/07/owl#topObjectProperty");
+//        top.addSubProperty(fatherRelation);
         return ;
     }
 

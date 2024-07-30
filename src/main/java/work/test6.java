@@ -88,7 +88,7 @@ public class test6 {
                 String type = record.get("type").asString();
                 Long start = record.get("start").asLong();
                 Long end = record.get("end").asLong();
-                Property relationProperty = model.createProperty(getNameSpace() + type + "-0");
+                Property relationProperty = model.createProperty(getNameSpace() + type);
                 Resource individual_start =  model.getResource(getNameSpace() + start);
                 Resource individual_end =  model.getResource(getNameSpace() + end);
                 individual_start.addProperty(relationProperty, individual_end);
