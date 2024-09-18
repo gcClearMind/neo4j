@@ -6,6 +6,8 @@ import org.apache.jena.rdf.model.*;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.checkerframework.checker.oigj.qual.O;
+import org.neo4j.driver.types.Node;
+import org.neo4j.driver.types.Relationship;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -105,6 +107,61 @@ public class CoreOWLUtil {
         return realList.toString();
     }
 
+    public static String getSWRL(OntModel ontModel, org.neo4j.driver.types.Path path){
+
+        List<Node> nodes = (List<Node>) path.nodes();
+        List<Relationship> relationships = (List<Relationship>) path.relationships();
+        StringBuilder res = new StringBuilder();
+        String cur = null;
+        String now = null;
+        Boolean flag = false;
+        String start = null;
+        String end = null;
+        for(int i = 0; i < nodes.size(); i++) {
+            Node node = nodes.get(i);
+            Map nodeMap = node.asMap();
+            now = String.valueOf((char)('a' + i));
+            String xmiType = (String)nodeMap.get("xmi:type");
+            List<String> labels = (List<String>) node.labels();
+            String label = null;
+
+            if(labels.size() == 1) {
+                label = labels.get(0);
+            }
+            else {
+                for(int j = 0; j < labels.size(); j++) {
+                    if(labels.get(j).toString().equals(xmiType)) {
+                        continue;
+                    }
+                    else {
+                        label = labels.get(j);
+                        break;
+                    }
+                }
+            }
+            if(i == 0) {
+                start = now;
+                res.append(label).append("(?").append(now).append(") ^ ");
+            }
+            else{
+                Relationship relationship = relationships.get(i - 1);
+                String rel = relationship.type();
+                res.append(rel).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
+                if(i == nodes.size() - 1) {
+                    end = now;
+                    res.append(label).append("(?").append(now).append(")");
+                }
+                else{
+                    res.append(label).append("(?").append(now).append(") ^ ");
+                }
+            }
+
+            cur = now;
+
+        }
+        res.append(" -> ").append("relationship").append("(?").append(start).append(", ?").append(end).append(")");
+        return res.toString();
+    }
 
 
     public static String getSWRL(Path path, String result) {
