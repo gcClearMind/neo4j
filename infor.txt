@@ -1,7 +1,7 @@
-uml:Class Blocks:Block
-uml:ConnectorEnd Blocks:NestedConnectorEnd
-Blocks:Block ConstraintBlocks:ConstraintBlock
-uml:ConnectorEnd Blocks:NestedConnectorEnd
-uml:Connector Blocks:BindingConnector
-uml:DataType Blocks:ValueType
-uml:Property Ports_Flows:FlowProperty
+uml:Class Block
+uml:ConnectorEnd NestedConnectorEnd
+Block ConstraintBlock
+uml:ConnectorEnd NestedConnectorEnd
+uml:Connector BindingConnector
+uml:DataType ValueType
+uml:Property FlowProperty

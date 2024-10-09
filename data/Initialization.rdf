@@ -5,30 +5,31 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Ontology rdf:about="http://www.neo4j.com/ontologies/data.owl"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:ConnectorEnd"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:DataType"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Class"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Ports_Flows:FlowProperty">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:NestedConnectorEnd">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:ConnectorEnd"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ConstraintBlocks:ConstraintBlock">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:Block"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:BindingConnector">
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#BindingConnector">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Connector"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:ValueType">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:DataType"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:ConnectorEnd"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#NestedConnectorEnd">
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:ConnectorEnd"/>
   </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Blocks:Block">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Class"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ConstraintBlock">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Block"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Block">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Class"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:DataType"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#FlowProperty">
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ValueType">
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:DataType"/>
   </owl:Class>
 </rdf:RDF>
