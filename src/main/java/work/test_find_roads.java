@@ -35,9 +35,9 @@ public class test_find_roads {
         String inputFileName = Paths.get("data/output_individual.rdf").toString();
         OntModel ontModel = getOntModel(model, inputFileName);
 
-        String start = "Blocks:Block";
-        String end = "Blocks:Block";
-        int pathLen = 6;
+        String start = "Block";
+        String end = "Block";
+        int pathLen = 4;
         try (Session session = driver.session()) {
             Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]->(m:`" + end + "`) " +
                     "return p as list");

@@ -41,8 +41,8 @@ public class test6 {
         OntModel ontModel = getOntModel(model, inputFileName);
 
 
-        OntClass start = CoreOWLUtil.getClass(ontModel, "Blocks:Block");
-        OntClass end = CoreOWLUtil.getClass(ontModel, "Blocks:Block");
+        OntClass start = CoreOWLUtil.getClass(ontModel, "Block");
+        OntClass end = CoreOWLUtil.getClass(ontModel, "Block");
 //        List<Pair<OntProperty, OntClass>> next_nodes = getRelations(ontModel, start);
 //        for(Pair<OntProperty, OntClass> a : next_nodes) {
 //            System.out.println(a.toString());

@@ -120,7 +120,7 @@ public class CoreOWLUtil {
         for(int i = 0; i < nodes.size(); i++) {
             Node node = nodes.get(i);
             Map nodeMap = node.asMap();
-            now = String.valueOf((char)('a' + i));
+            now = "individual" + String.valueOf((char)('A' + i));
             String xmiType = (String)nodeMap.get("xmi:type");
             List<String> labels = (List<String>) node.labels();
             String label = null;
