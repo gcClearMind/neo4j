@@ -31,3 +31,4 @@ Thumbs.db
 
 # qodaana
 qodana.yaml
+src/main/resources/Initialization.properties
