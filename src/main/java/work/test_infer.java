@@ -1,17 +1,11 @@
 package work;
 
-import org.apache.jena.assembler.RuleSet;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.semanticweb.HermiT.ReasonerFactory;
 import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.formats.OWLXMLDocumentFormat;
 import org.semanticweb.owlapi.formats.RDFXMLDocumentFormat;
 import org.semanticweb.owlapi.model.*;
-import org.semanticweb.owlapi.reasoner.InferenceType;
-import org.semanticweb.owlapi.reasoner.OWLReasoner;
-import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
 import org.swrlapi.core.SWRLAPIRule;
 import org.swrlapi.core.SWRLRuleEngine;
 import org.swrlapi.exceptions.SWRLBuiltInException;
@@ -21,15 +15,13 @@ import org.swrlapi.parser.SWRLParseException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Set;
-import java.util.stream.Stream;
 
 import static tool.CoreOWLUtil.SetSourceName;
 import static tool.CoreOWLUtil.getOntModel;
 
-public class test4 {
+public class test_infer {
     public static void main(String[] args) throws OWLOntologyCreationException, SWRLParseException, SWRLBuiltInException, FileNotFoundException, OWLOntologyStorageException {
 //        InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
 //        Properties properties = new Properties();
@@ -63,7 +55,7 @@ public class test4 {
 //        pm.setPrefix("uml:", "http://www.example.org/uml#");
         SWRLRuleEngine ruleEngine = SWRLAPIFactory.createSWRLRuleEngine(ontology);
 
-        SWRLAPIRule rule =  ruleEngine.createSWRLRule("rule15", ruleString);
+        SWRLAPIRule rule =  ruleEngine.createSWRLRule("rule1", ruleString);
 
         System.out.println(rule);
         ruleEngine.infer();
