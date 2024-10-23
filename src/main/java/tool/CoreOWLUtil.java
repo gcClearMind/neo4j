@@ -5,7 +5,6 @@ import org.apache.jena.rdf.model.*;
 
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
-import org.checkerframework.checker.oigj.qual.O;
 import org.neo4j.driver.types.Node;
 import org.neo4j.driver.types.Relationship;
 
@@ -106,6 +105,53 @@ public class CoreOWLUtil {
         }
         return realList.toString();
     }
+
+    public static String showPath(org.neo4j.driver.types.Path path) {
+        List<Node> nodes = (List<Node>) path.nodes();
+        List<Relationship> relationships = (List<Relationship>) path.relationships();
+        StringBuilder res = new StringBuilder();
+        for(int i = 0; i < nodes.size(); i++) {
+            Node node = nodes.get(i);
+            Map<String, Object> nodeMap = node.asMap();
+            String nodeName = null;
+            if(node.containsKey("name")) {
+                nodeName = (String) nodeMap.get("name");
+            }
+            else {
+                nodeName = "";
+            }
+            String xmiType = (String)nodeMap.get("xmi:type");
+            List<String> labels = (List<String>) node.labels();
+            String label = null;
+
+            if(labels.size() == 1) {
+                label = labels.get(0);
+            }
+            else {
+                for(int j = 0; j < labels.size(); j++) {
+                    if(labels.get(j).toString().equals(xmiType)) {
+                        continue;
+                    }
+                    else {
+                        label = labels.get(j);
+                        break;
+                    }
+                }
+            }
+            if(i == 0) {
+                res.append("[(").append(label).append(":").append(nodeName).append(")");
+            }
+            else {
+
+                Relationship relationship = relationships.get(i - 1);
+                res.append("-[:").append(relationship.type()).append("]->");
+                res.append("(").append(node.id()).append(":").append(nodeName).append(")");
+            }
+        }
+        res.append("]");
+        return  res.toString();
+    }
+
 
     public static String getSWRL(OntModel ontModel, org.neo4j.driver.types.Path path){
 

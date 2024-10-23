@@ -1,5 +1,6 @@
 package work;
 
+import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Model;
@@ -12,8 +13,7 @@ import tool.Path;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Paths;
-import java.util.LinkedList;
-import java.util.Properties;
+import java.util.*;
 
 import static tool.CoreOWLUtil.*;
 
@@ -38,6 +38,7 @@ public class test_find_roads {
         String start = "Block";
         String end = "Block";
         int pathLen = 4;
+        Set<String> SWRL_list = new HashSet<>();
         try (Session session = driver.session()) {
             Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]->(m:`" + end + "`) " +
                     "return p as list");
@@ -45,8 +46,16 @@ public class test_find_roads {
                 Record record = result.next();
                 org.neo4j.driver.types.Path path = record.get("list").asPath();
                 String swrl = CoreOWLUtil.getSWRL(ontModel, path);
+                System.out.println("-------------------------------------------------------------------------------------------");
                 System.out.println(swrl);
+                System.out.println(showPath(path));
 
+                System.out.println("-------------------------------------------------------------------------------------------");
+                System.out.println();
+                SWRL_list.add(swrl);
+            }
+            for(String swrl : SWRL_list) {
+                System.out.println(swrl);
             }
         }
         catch (Exception e) {
