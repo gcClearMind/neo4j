@@ -1,0 +1,80 @@
+1
+[(Block:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+2
+[(Block:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)-[:ownedAttribute]->(577:探测器)-[:type]->(580:探测器)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+3
+[(Block:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)-[:ownedAttribute]->(576:信息处理子系统)-[:type]->(578:信息处理子系统)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+4
+[(Block:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)-[:ownedAttribute]->(576:信息处理子系统)-[:type]->(578:信息处理子系统)-[:ownedAttribute]->(579:目标识别模块)-[:type]->(581:目标识别模块)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) ^ ownedAttribute(?individualE, ?individualF) ^ PartProperty(?individualF) ^ type(?individualF, ?individualG) ^ Block(?individualG) -> relationship(?individualA, ?individualG)
+
+5
+[(Block:滑翔炸弹)-[:ownedAttribute]->(566:弹体)-[:type]->(570:弹体)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+6
+[(Block:滑翔炸弹)-[:ownedAttribute]->(565:折叠翼)-[:type]->(569:折叠翼)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+7
+[(Block:滑翔炸弹)-[:ownedAttribute]->(564:制导尾仓)-[:type]->(568:制导尾仓)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+8
+[(Block:上下文)-[:ownedAttribute]->(574:载机)-[:type]->(571:载机)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+9
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+10
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+11
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)-[:ownedAttribute]->(577:探测器)-[:type]->(580:探测器)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) ^ ownedAttribute(?individualE, ?individualF) ^ PartProperty(?individualF) ^ type(?individualF, ?individualG) ^ Block(?individualG) -> relationship(?individualA, ?individualG)
+
+12
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(567:导引头)-[:type]->(575:导引头)-[:ownedAttribute]->(576:信息处理子系统)-[:type]->(578:信息处理子系统)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) ^ ownedAttribute(?individualE, ?individualF) ^ PartProperty(?individualF) ^ type(?individualF, ?individualG) ^ Block(?individualG) -> relationship(?individualA, ?individualG)
+
+13
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(566:弹体)-[:type]->(570:弹体)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+14
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(565:折叠翼)-[:type]->(569:折叠翼)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+15
+[(Block:上下文)-[:ownedAttribute]->(573:滑翔炸弹)-[:type]->(563:滑翔炸弹)-[:ownedAttribute]->(564:制导尾仓)-[:type]->(568:制导尾仓)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+16
+[(Block:导引头)-[:ownedAttribute]->(577:探测器)-[:type]->(580:探测器)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+17
+[(Block:导引头)-[:ownedAttribute]->(576:信息处理子系统)-[:type]->(578:信息处理子系统)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+18
+[(Block:导引头)-[:ownedAttribute]->(576:信息处理子系统)-[:type]->(578:信息处理子系统)-[:ownedAttribute]->(579:目标识别模块)-[:type]->(581:目标识别模块)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+
+19
+[(Block:信息处理子系统)-[:ownedAttribute]->(579:目标识别模块)-[:type]->(581:目标识别模块)]
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+
+--------------------------------------------------------------------------------------
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) -> relationship(?individualA, ?individualC)
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relationship(?individualA, ?individualE)
+Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) ^ ownedAttribute(?individualE, ?individualF) ^ PartProperty(?individualF) ^ type(?individualF, ?individualG) ^ Block(?individualG) -> relationship(?individualA, ?individualG)
