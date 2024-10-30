@@ -72,6 +72,7 @@ public class test_find_roads {
             writer.newLine();
             for(String swrl : SWRL_list) {
                 writer.write(swrl);
+
                 writer.newLine();
                 System.out.println(swrl);
                 writer.flush();
