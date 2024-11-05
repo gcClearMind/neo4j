@@ -31,4 +31,10 @@ Thumbs.db
 
 # qodaana
 qodana.yaml
+
+data/
+target/
 src/main/resources/Initialization.properties
+
+data/output.rdf
+/data

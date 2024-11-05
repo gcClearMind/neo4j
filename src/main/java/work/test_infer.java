@@ -42,7 +42,11 @@ public class test_infer {
 //        String ruleString = "a(?x) , b(?y) , r1(?x, ?y) , c(?z) , r2(?y, ?z) -> r3(?x, ?z)";
 //        String ruleString = "[r1: (?x rdf:type a) , (?y rdf:type b), (?x r1 ?y),  (?z rdf:type c) , (?y, r2 ?z) -> (?x r3 ?z)]";
 //        String ruleString = "(?x rdf:type a) , (?y rdf:type b), (?x r1 ?y),  (?z rdf:type c) , (?y, r2 ?z) -> (?x r3 ?z)";
-        String ruleString = "Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ PartProperty(?individualB) ^ type(?individualB, ?individualC) ^ Block(?individualC) ^ ownedAttribute(?individualC, ?individualD) ^ PartProperty(?individualD) ^ type(?individualD, ?individualE) ^ Block(?individualE) -> relation(?individualA, ?individualE)";
+        String ruleString = "Block(?individualA) ^ ownedAttribute(?individualA, ?individualB) ^ uml:Property(?individualB)" +
+                " ^ type(?individualB, ?individualC) ^ uml:Activity(?individualC) ^ ownedAttribute(?individualC, ?individualD)" +
+                " ^ uml:Property(?individualD) ^ type(?individualD, ?individualE) ^ uml:Activity(?individualE) ^ group(?individualE, ?individualF)" +
+                " ^ AllocateActivityPartition(?individualF)" +
+                " ^ represents(?individualF, ?individualG) ^ Block(?individualG) -> relation(?individualA, ?individualG)";
 //        String ruleString = "[rule1: (?individual-a rdf:type Block), (?individual-a ownedAttribute ?individual-b), (?individual-b rdf:type RequirementRelated), (?individual-b type ?individual-c), (?individual-c rdf:type System), (?individual-c ownedAttribute ?individual-d), (?individual-d type PartProperty), (?individual-d type ?individual-e), (?individual-e type Block) -> (?individual-a relationship ?individual-e)]";
 //        String ruleString = " Block(?individual-a), ownedAttribute(?individual-a, ?individual-b), RequirementRelated(?individual-b), type(?individual-b, ?individual-c), System(?individual-c), ownedAttribute(?individual-c, ?individual-d), PartProperty(?individual-d), type(?individual-d, ?individual-e), Block(?individual-e) -> relationship(?individual-a, ?individual-e)";
 //        RuleSet ruleSet = RuleSet.create(ruleString);
@@ -52,7 +56,7 @@ public class test_infer {
         OWLOntology ontology = manager.loadOntologyFromOntologyDocument(file);
         manager.getOntologyFormat(ontology).asPrefixOWLOntologyFormat().setDefaultPrefix(base + "#");
         PrefixManager pm = manager.getOntologyFormat(ontology).asPrefixOWLOntologyFormat();
-//        pm.setPrefix("uml:", "http://www.example.org/uml#");
+        pm.setPrefix("uml:", "http://www.example.org/uml#");
         SWRLRuleEngine ruleEngine = SWRLAPIFactory.createSWRLRuleEngine(ontology);
 
         SWRLAPIRule rule =  ruleEngine.createSWRLRule("rule1", ruleString);

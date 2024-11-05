@@ -205,7 +205,7 @@ public class CoreOWLUtil {
             cur = now;
 
         }
-        res.append(" -> ").append("relationship").append("(?").append(start).append(", ?").append(end).append(")");
+        res.append(" -> ").append("relation").append("(?").append(start).append(", ?").append(end).append(")");
         return res.toString();
     }
 
@@ -591,6 +591,7 @@ public class CoreOWLUtil {
 //        top.addSubProperty(fatherRelation);
         return ;
     }
+
 
     /*
      * @Description: 获得与sourceClass相连的所有Property

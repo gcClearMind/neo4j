@@ -94,6 +94,7 @@ public class test_addOntologyAndRelation {
             addRelation(ontModel, first, second, relationName);
 //            System.out.println(first.getURI() + "  " + relationName + " " + second.getURI());
         }
+        addRelation(ontModel, null, null, "relation");
         printClasses(ontModel);
         printProperties(ontModel);
 //        model.write(System.out, "N-TRIPLES");
