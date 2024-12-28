@@ -47,8 +47,8 @@ public class test_find_roads {
         Map<String, Vector<Path>> swrl_map = new HashMap<>();
         try (Session session = driver.session()) {
             Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]-(m:`" + end + "`) " +
-                    " WHERE NOT ANY(r IN relationships(p) WHERE type(r) in ['packagedElement','client','supplier'])" +
-                    " return p as list");
+                    " WHERE NOT ANY(r IN relationships(p) WHERE type(r) in ['packagedElement'])" +
+                    " return p as list");//,'client','supplier'
             int id = 0;
             while (result.hasNext()) {
                 Record record = result.next();
