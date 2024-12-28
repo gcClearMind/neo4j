@@ -128,12 +128,11 @@ public class CoreOWLUtil {
                 label = labels.get(0);
             }
             else {
-                for(int j = 0; j < labels.size(); j++) {
-                    if(labels.get(j).toString().equals(xmiType)) {
+                for (String s : labels) {
+                    if (s.equals(xmiType)) {
                         continue;
-                    }
-                    else {
-                        label = labels.get(j);
+                    } else {
+                        label = s;
                         break;
                     }
                 }
@@ -142,10 +141,16 @@ public class CoreOWLUtil {
                 res.append("[(").append(label).append(":").append(nodeName).append(")");
             }
             else {
-
                 Relationship relationship = relationships.get(i - 1);
-                res.append("-[:").append(relationship.type()).append("]->");
-                res.append("(").append(node.id()).append(":").append(nodeName).append(")");
+                Long endId = relationship.endNodeId();
+                if(endId.equals(node.id())) {
+                    res.append("-[:").append(relationship.type()).append("]->");
+                }
+                else { // 反向
+                    res.append("<-[:").append(relationship.type()).append("]-");
+
+                }
+                res.append("(").append(label).append(":").append(nodeName).append(")");
             }
         }
         res.append("]");
@@ -163,7 +168,7 @@ public class CoreOWLUtil {
         Boolean flag = false;
         String start = null;
         String end = null;
-        for(int i = 0; i < nodes.size(); i++) {
+        for(int i = 0; i  < nodes.size(); i++) {
             Node node = nodes.get(i);
             Map nodeMap = node.asMap();
             now = "individual" + String.valueOf((char)('A' + i));
@@ -175,12 +180,11 @@ public class CoreOWLUtil {
                 label = labels.get(0);
             }
             else {
-                for(int j = 0; j < labels.size(); j++) {
-                    if(labels.get(j).toString().equals(xmiType)) {
+                for (String s : labels) {
+                    if (s.equals(xmiType)) {
                         continue;
-                    }
-                    else {
-                        label = labels.get(j);
+                    } else {
+                        label = s;
                         break;
                     }
                 }
@@ -192,7 +196,13 @@ public class CoreOWLUtil {
             else{
                 Relationship relationship = relationships.get(i - 1);
                 String rel = relationship.type();
-                res.append(rel).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
+                Long endId = relationship.endNodeId();
+                if(endId.equals(node.id())) {
+                    res.append(rel).append("(?").append(cur).append(", ?").append(now).append(") ^ ");
+                }
+                else { // 反向
+                    res.append(rel).append("(?").append(now).append(", ?").append(cur).append(") ^ ");
+                }
                 if(i == nodes.size() - 1) {
                     end = now;
                     res.append(label).append("(?").append(now).append(")");

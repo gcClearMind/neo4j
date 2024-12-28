@@ -39,15 +39,16 @@ public class test_find_roads {
 
         String filePath = "data/path/output.txt";
 
-        String start = "Block";
+        String start = "Requirement";
         String end = "Block";
         int pathLen = 6;
         BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
         Set<String> SWRL_list = new HashSet<>();
         Map<String, Vector<Path>> swrl_map = new HashMap<>();
         try (Session session = driver.session()) {
-            Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]->(m:`" + end + "`) " +
-                    "return p as list");
+            Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]-(m:`" + end + "`) " +
+                    " WHERE NOT ANY(r IN relationships(p) WHERE type(r) in ['packagedElement','client','supplier'])" +
+                    " return p as list");
             int id = 0;
             while (result.hasNext()) {
                 Record record = result.next();
