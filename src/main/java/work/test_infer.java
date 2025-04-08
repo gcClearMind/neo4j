@@ -50,7 +50,9 @@ public class test_infer {
 //                " ^ uml:Property(?individualD) ^ type(?individualD, ?individualE) ^ uml:Activity(?individualE) ^ group(?individualE, ?individualF)" +
 //                " ^ AllocateActivityPartition(?individualF)" +
 //                " ^ represents(?individualF, ?individualG) ^ Block(?individualG) -> relation(?individualA, ?individualG)";
-        String ruleString = "Block(?A)^ValueProperty(?B)^Requirement(?Cx)^ownedAttribute(?A,?B)^satisfy(?B,?Cx)->satisfy(?A,?Cx)";
+
+
+        String ruleString = "Requirement(?individualA) ^ DerivedFrom(?individualB, ?individualA) ^ Requirement(?individualB) ^ supplier(?individualC, ?individualB) ^ Refine(?individualC) ^ client(?individualC, ?individualD) ^ ValueProperty(?individualD) ^ redefinedProperty(?individualE, ?individualD) ^ ValueProperty(?individualE) ^ ownedAttribute(?individualF, ?individualE) ^ Block(?individualF) -> relation(?individualA, ?individualF)";
 //        String ruleString = "[rule1: (?individual-a rdf:type Block), (?individual-a ownedAttribute ?individual-b), (?individual-b rdf:type RequirementRelated), (?individual-b type ?individual-c), (?individual-c rdf:type System), (?individual-c ownedAttribute ?individual-d), (?individual-d type PartProperty), (?individual-d type ?individual-e), (?individual-e type Block) -> (?individual-a relationship ?individual-e)]";
 //        String ruleString = " Block(?individual-a), ownedAttribute(?individual-a, ?individual-b), RequirementRelated(?individual-b), type(?individual-b, ?individual-c), System(?individual-c), ownedAttribute(?individual-c, ?individual-d), PartProperty(?individual-d), type(?individual-d, ?individual-e), Block(?individual-e) -> relationship(?individual-a, ?individual-e)";
 //        RuleSet ruleSet = RuleSet.create(ruleString);
