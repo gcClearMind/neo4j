@@ -15,7 +15,7 @@
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:LiteralUnlimitedNatural"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#TestCase">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Activity"/>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Operation"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Collaboration"/>
@@ -73,6 +73,7 @@
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ValueProperty">
     <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
   </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Activity"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Lifeline"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:ControlFlow"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#system_of_interest">
@@ -84,6 +85,11 @@
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#PartProperty">
     <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Property"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#UI">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Component"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ConstraintBlock">
     <rdfs:subClassOf>
@@ -119,9 +125,7 @@
     <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Class"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Frame">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Component"/>
-    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Component"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:CallBehaviorAction"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#ReferenceProperty">
@@ -148,9 +152,6 @@
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Transition"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:SendSignalAction"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:ProfileApplication"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#caused_by">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Dependency"/>
-  </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:InputPin"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Interaction"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Constraint"/>
@@ -183,7 +184,6 @@
       <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Generalization"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Operation"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Include"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#DeriveReqt">
     <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Abstraction"/>
@@ -248,9 +248,6 @@
   </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:InteractionOperand"/>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:ActivityFinalNode"/>
-  <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#violates">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Dependency"/>
-  </owl:Class>
   <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#Stakeholder">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.neo4j.com/ontologies/data.owl#uml:Actor"/>
@@ -278,6 +275,7 @@
     <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Comment"/>
   </owl:Class>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#include"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#refine"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#element"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#edge"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#max"/>
@@ -299,10 +297,6 @@
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#event"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#log"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#principal"/>
-  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#UI">
-    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Component"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#extensionPoint"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#ownedParameter"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#constrainedElement"/>
@@ -337,6 +331,10 @@
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#partWithPort"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#guard"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#min"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#caused_by">
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Dependency"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#packagedElement"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#entry"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#generalization"/>
@@ -360,7 +358,10 @@
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#redefinedProperty"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#classifier"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#represents"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#derivereqt"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#allocate"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#message"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#satisfy"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#group"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#profileApplication"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#target"/>
@@ -374,6 +375,7 @@
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#formalGate"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#development"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#elementImport"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#trace"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#ownedRule"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#refersTo"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#expr"/>
@@ -385,6 +387,10 @@
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#slot"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#ownedUseCase"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#concern"/>
+  <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#violates">
+    <rdfs:subClassOf rdf:resource="http://www.neo4j.com/ontologies/data.owl#uml:Dependency"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#propertyPath"/>
   <owl:ObjectProperty rdf:about="http://www.neo4j.com/ontologies/data.owl#behavior"/>
 </rdf:RDF>

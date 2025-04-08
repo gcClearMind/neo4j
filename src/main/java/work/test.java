@@ -8,6 +8,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.neo4j.driver.*;
 import org.neo4j.driver.Record;
+import org.neo4j.driver.types.Node;
 import tool.CoreOWLUtil;
 
 import java.io.IOException;
@@ -26,96 +27,69 @@ import static tool.CoreOWLUtil.*;
 public class test {
 
     public static void main(String[] args) throws IOException {
-
-
         InputStream inputStream = test.class.getResourceAsStream("/Initialization.properties");
-        Properties properties=new Properties();
+        Properties properties = new Properties();
         properties.load(inputStream);
-        // 连接数据库
         String uri = properties.getProperty("neo4j.uri");
         String user = properties.getProperty("neo4j.user");
         String password = properties.getProperty("neo4j.password");
         Driver driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
-
-        // 执行一些数据库操作
-        Map<List<String>, Integer> relation = new TreeMap<>(new Comparator<List<String>>() {
-            @Override
-            public int compare(List<String> o1, List<String> o2) {
-                //比较顺序
-                return o1.get(0).compareTo(o2.get(0)) == 0 ?
-                        (o1.get(2).compareTo(o2.get(2)) == 0 ?
-                                o1.get(1).compareTo(o2.get(1)) : o1.get(2).compareTo(o2.get(2)))
-                        : o1.get(0).compareTo(o2.get(0));
-            }
-        });
         try (Session session = driver.session()) {
-            Result result = session.run("MATCH (n)-[r]-(m) RETURN labels(n) as first , labels(m) as second ,type(r) as relation");
+            String query = "MATCH (n)<-[:client]-(r)-[:supplier]->(m) " +
+                    "RETURN id(n) AS start, id(r) AS mid, r, id(m) AS end";
+
+            Result result = session.run(query);
+
             while (result.hasNext()) {
                 Record record = result.next();
-                List<Object> first = record.get("first").asList();
-                List<Object> second = record.get("second").asList();
-                String rel = record.get("relation").asString();
-                String fs = null, se = null;
-                List<String> ad = new ArrayList<>();
 
-                // todo sysml
-                for(Object x : first) {
-                    if(! x.toString().contains("uml")){
-                        fs = x.toString();
+                long startId = record.get("start").asLong();
+                long endId = record.get("end").asLong();
+
+                Node rNode = record.get("r").asNode();
+
+                String relationType = null;
+                for (String label : rNode.labels()) {
+                    if (!label.startsWith("uml:")) {
+                        relationType = label;
+                        break; // 找到就退出
                     }
                 }
-                if (fs == null) {
-                    fs = first.get(0).toString();
-                }
-                ad.add(fs);
-                ad.add(rel);
-                for(Object x : second) {
-                    if(! x.toString().contains("uml")){
-                        se = x.toString();
+
+                // ✅ 2. 如果没有非uml:标签，检查 name 属性
+                if (relationType == null || relationType.isEmpty()) {
+                    if (rNode.containsKey("name") && !rNode.get("name").isNull()) {
+                        relationType = rNode.get("name").asString();
                     }
                 }
-                if (se == null) {
-                    se = first.get(0).toString();
+
+                // ✅ 3. 最终 fallback
+                if (relationType == null || relationType.isEmpty()) {
+                    // fallback：取第一个 label，或者默认值
+                    relationType = rNode.labels().iterator().hasNext() ?
+                            rNode.labels().iterator().next() :
+                            "Relation";
                 }
-                ad.add(se);
-                relation.put(ad, 1);
+
+                // ✅ 4. 清理非法字符（Neo4j 不允许 : / 空格 等）
+                relationType = relationType.replaceAll("[^a-zA-Z0-9_]", "_").toLowerCase();
+                // ✅ 打印日志
+                System.out.println("Create relation from node " + startId + " to " + endId + " type: " + relationType);
+
+                // ✅ 执行创建关系
+                String createRelationQuery =
+                        "MATCH (a), (b) " +
+                                "WHERE id(a) = $startId AND id(b) = $endId " +
+                                "MERGE (a)-[rel:" + relationType + "]->(b)";
+
+                session.run(createRelationQuery,
+                        Values.parameters("startId", startId, "endId", endId));
+
             }
+
+        } finally {
+            driver.close();
         }
-        catch (Exception e) {
-            e.printStackTrace();
-
-        }
-
-//        OutputStream out2 = Files.newOutputStream(Paths.get("data.txt"));
-//        for(List<String> x : relation.keySet()) {
-////            System.out.println(x);
-//
-//            out2.write((x.toString()+ '\n').getBytes());
-//        }
-        // 关闭连接
-        driver.close();
-
-        Model model = ModelFactory.createDefaultModel();
-        SetSourceName("http://www.neo4j.com/ontologies/data.owl");
-
-        String inputFileName = Paths.get("data/1.rdf").toString();
-        OntModel ontModel = getOntModel(model, inputFileName);
-
-
-
-
-        for(List<String> o : relation.keySet()){
-            OntClass first = CoreOWLUtil.createClass(ontModel, o.get(0));
-            String relationName = o.get(1);
-            OntClass second = CoreOWLUtil.createClass(ontModel, o.get(2));
-            addRelation(ontModel, first, second, relationName);
-        }
-        printClasses(ontModel);
-
-        model.write(System.out, "N-TRIPLES");
-        OutputStream out = Files.newOutputStream(Paths.get("data/output.rdf"));
-        model.write(out,"RDF/XML-ABBREV");
     }
-
-
 }
+
