@@ -38,3 +38,4 @@ src/main/resources/Initialization.properties
 
 data/output.rdf
 /data
+neo4j.zip
