@@ -80,14 +80,11 @@ public class test_find_roads {
                 writer.flush();
 
                 for(Path path : swrl_map.get(key)) {
-                    double articleRankScore = 0.0;
-                    double pageRankScore = 0.0;
                     int length = 0;
 
                     for(org.neo4j.driver.types.Node node : path.nodes()) {
                         Map nodeMap = node.asMap();
-                        articleRankScore = articleRankScore + (double) nodeMap.get("articleRankScore");
-                        pageRankScore = pageRankScore + (double) nodeMap.get("pageRankScore");
+
 
                         length++;
                     }
@@ -100,14 +97,9 @@ public class test_find_roads {
 //                        Relationship rel = record.get("r").asRelationship();
 //                        relList.add(rel);
 //                    }
-                    double avg_articleRankScore = articleRankScore / length ;
-                    double avg_pageRankScore = pageRankScore / length ;
-
 
                     writer.write(showPath(path));
                     writer.newLine();
-                    writer.write("articleRankScore: " + articleRankScore + "; avg_articleRankScore: " + avg_articleRankScore +
-                            "; pageRankScore: " + pageRankScore + "; avg_pageRankScore: " + avg_pageRankScore);
                     writer.newLine();
 //                    if(!relList.isEmpty()) {
 //                        System.out.println(relList);

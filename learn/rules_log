@@ -1,12 +1,12 @@
 Logfile
 ~~~~~~~
 
-indexing dataset: triples_with_local.txt
-time elapsed: 268ms
+indexing dataset: triples_with_all.txt
+time elapsed: 370ms
 
 SAFE_PREFIX_MODE = false
 SINGLE_RELATIONS = null
-PATH_TRAINING = triples_with_local.txt
+PATH_TRAINING = triples_with_all.txt
 CONSTANTS_OFF = false
 PATH_OUTPUT = rules
 PATH_DICE = null
@@ -38,14 +38,14 @@ EXCLUDE_AC2_RULES = false
 
 rule file: rules-10
 zero: 0
-cyclic: 31 | 143 | 634 | 
-acyclic: 3575 | time planned: 10s
+cyclic: 41 | 192 | 817 | 
+acyclic: 6581 | time planned: 10s
 time elapsed: 11s
 
 
 rule file: rules-50
 zero: 0
-cyclic: 31 | 143 | 634 | 
-acyclic: 3577 | time planned: 50s
+cyclic: 41 | 192 | 824 | 
+acyclic: 7574 | time planned: 50s
 time elapsed: 51s
 
